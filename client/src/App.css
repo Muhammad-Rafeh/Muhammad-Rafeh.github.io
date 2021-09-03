@@ -1,3 +1,13 @@
+@font-face {
+  font-family : "round-edges";
+  src: local('round-edges'), url(./fonts/VarelaRound-Regular.woff) format('woff');
+}
+
+@font-face{
+  font-family: "AzeretMono";
+  src : local('AzeretMono'), url(./fonts/AzeretMono-VariableFont_wght.woff) format('woff');
+}
+
 .App {
   text-align: center;
 }
@@ -14,12 +24,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(./images/bgImg3updated2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* display: flex;
+  flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +48,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.nav-wrapper {
+
+  font-size: 15px;
+  font-family: 'round-edges';
+  font-weight: 900;
+
+  min-height : 10vh ; 
+  display: flex;
+  flex-direction: row;
+
+  opacity: 0.8;
+  
+  color: rgb(0, 221, 255);
+  justify-content: space-around;
+  align-items: center;
+}
+.hr {
+  background-color: rgb(72, 71, 71);
+  border: none;
+  height: 1px;
+}
+.logo-h2 span {
+  color :rgb(0, 221, 255);
+
+}
+.logo-h2 {
+  color: white;
+}
+.name {
+  background-color: rgb(0, 221, 255);
+  color: black;
+  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
 }

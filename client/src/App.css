@@ -7,6 +7,10 @@
   font-family: "AzeretMono";
   src : local('AzeretMono'), url(./fonts/AzeretMono-VariableFont_wght.woff) format('woff');
 }
+@font-face{
+  font-family: "Montserrat";
+  src : local('AzeretMono'), url(./fonts/Montserrat-Regular.woff) format('woff');
+}
 
 .App {
   text-align: center;
@@ -80,9 +84,19 @@
   color: white;
 }
 .name {
-  background-color: rgb(0, 221, 255);
+  background-image: linear-gradient(to right,   rgb(156, 245, 255),rgb(0, 221, 255),#2a2aff);
+  /* background-image: linear-gradient(to right,   #ad06f6,#00e1ff); */
+  /* background-color: rgb(0, 221, 255); */
   color: black;
   padding: 10px;
   padding: 10px 20px 10px 20px;
   border-radius: 3px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.img-entry {
+  position: absolute;
+  height: 200px;
+  margin-top: 30vh;
+  
 }

@@ -31,6 +31,33 @@
     padding-left: 150px;
 }
 
+.protfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.prot-items-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.prot-items-wrapper img {
+    height: 100px;
+}
+.prot-items-wrapper div {
+    margin : 10px;
+}
+
+.github {
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+
 .skill-category-wrapper {
     display: flex;
     flex-direction: row;
@@ -48,18 +75,23 @@
 }
 .skill-category-wrapper div {
     font-family: "Montserrat";
-    background-color: rgb(0, 221, 255);
+    /* background-color: rgb(0, 221, 255); */
+    background-image: linear-gradient(to right,   #ce6cf8,#00e1ff);
     border-radius: 14px;
-    border-color: rgb(0, 221, 255);
+    border-color: black;
+    
     color: black;
     border-width: 2px;
     border-style: solid;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 5px 7px 5px 7px;
     margin-top:5px;
     margin-right: 5px;
 }
 .moto { 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00e1ff;
+    font-size: 15px;
+    text-shadow: 0 0 4px #00e1ff, 0 0 4px #ce6cf8;
 }
+

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/css/main.d9b58158.chunk.css",
-    "main.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/main.410f0355.chunk.js",
-    "main.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/main.410f0355.chunk.js.map",
-    "runtime-main.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/runtime-main.dafabbda.js",
-    "runtime-main.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/runtime-main.dafabbda.js.map",
-    "static/js/2.51578ce1.chunk.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/2.51578ce1.chunk.js",
-    "static/js/2.51578ce1.chunk.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/2.51578ce1.chunk.js.map",
-    "static/js/3.5f0a6d89.chunk.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/3.5f0a6d89.chunk.js",
-    "static/js/3.5f0a6d89.chunk.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/3.5f0a6d89.chunk.js.map",
-    "index.html": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/index.html",
-    "static/css/main.d9b58158.chunk.css.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/css/main.d9b58158.chunk.css.map",
-    "static/js/2.51578ce1.chunk.js.LICENSE.txt": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/js/2.51578ce1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/media/bgImg3updated2.233e6b3b.jpg",
-    "static/media/MyImg.7689f9e2.jpg": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/media/MyImg.7689f9e2.jpg",
-    "static/media/chatApp.9f453053.png": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/media/chatApp.9f453053.png",
-    "static/media/ecommerce.6be2e7e9.png": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/media/ecommerce.6be2e7e9.png",
-    "static/media/logo.6ce24c58.svg": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/media/logo.6ce24c58.svg",
-    "static/media/weatherApp.6e657673.png": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/client/static/media/weatherApp.6e657673.png"
+    "main.css": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/css/main.5488cd2d.chunk.css",
+    "main.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/main.410f0355.chunk.js",
+    "main.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/main.410f0355.chunk.js.map",
+    "runtime-main.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/runtime-main.2a64ebec.js",
+    "runtime-main.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/runtime-main.2a64ebec.js.map",
+    "static/js/2.51578ce1.chunk.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/2.51578ce1.chunk.js",
+    "static/js/2.51578ce1.chunk.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/2.51578ce1.chunk.js.map",
+    "static/js/3.5f0a6d89.chunk.js": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/3.5f0a6d89.chunk.js",
+    "static/js/3.5f0a6d89.chunk.js.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/3.5f0a6d89.chunk.js.map",
+    "index.html": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/index.html",
+    "static/css/main.5488cd2d.chunk.css.map": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/css/main.5488cd2d.chunk.css.map",
+    "static/js/2.51578ce1.chunk.js.LICENSE.txt": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/js/2.51578ce1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/media/bgImg3updated2.233e6b3b.jpg",
+    "static/media/MyImg.7689f9e2.jpg": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/media/MyImg.7689f9e2.jpg",
+    "static/media/chatApp.9f453053.png": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/media/chatApp.9f453053.png",
+    "static/media/ecommerce.6be2e7e9.png": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/media/ecommerce.6be2e7e9.png",
+    "static/media/logo.6ce24c58.svg": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/media/logo.6ce24c58.svg",
+    "static/media/weatherApp.6e657673.png": "/Muhammad-Rafeh/Muhammad-Rafeh.github.io/static/media/weatherApp.6e657673.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dafabbda.js",
+    "static/js/runtime-main.2a64ebec.js",
     "static/js/2.51578ce1.chunk.js",
-    "static/css/main.d9b58158.chunk.css",
+    "static/css/main.5488cd2d.chunk.css",
     "static/js/main.410f0355.chunk.js"
   ]
 }

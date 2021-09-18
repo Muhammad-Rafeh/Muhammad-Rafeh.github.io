@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.11d2ec43.chunk.js",
-    "main.js.map": "/static/js/main.11d2ec43.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.76de7034.js",
-    "runtime-main.js.map": "/static/js/runtime-main.76de7034.js.map",
-    "static/js/2.0bdde110.chunk.js": "/static/js/2.0bdde110.chunk.js",
-    "static/js/2.0bdde110.chunk.js.map": "/static/js/2.0bdde110.chunk.js.map",
-    "static/js/3.344d0c79.chunk.js": "/static/js/3.344d0c79.chunk.js",
-    "static/js/3.344d0c79.chunk.js.map": "/static/js/3.344d0c79.chunk.js.map",
+    "main.css": "/static/css/main.c79084fc.chunk.css",
+    "main.js": "/static/js/main.d8b75903.chunk.js",
+    "main.js.map": "/static/js/main.d8b75903.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e73e2e17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e73e2e17.js.map",
+    "static/js/2.e1f8a35c.chunk.js": "/static/js/2.e1f8a35c.chunk.js",
+    "static/js/2.e1f8a35c.chunk.js.map": "/static/js/2.e1f8a35c.chunk.js.map",
+    "static/js/3.4acacba6.chunk.js": "/static/js/3.4acacba6.chunk.js",
+    "static/js/3.4acacba6.chunk.js.map": "/static/js/3.4acacba6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.0bdde110.chunk.js.LICENSE.txt": "/static/js/2.0bdde110.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.c79084fc.chunk.css.map": "/static/css/main.c79084fc.chunk.css.map",
+    "static/js/2.e1f8a35c.chunk.js.LICENSE.txt": "/static/js/2.e1f8a35c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bgImg3updated2.233e6b3b.jpg",
+    "static/media/MyImg.7689f9e2.jpg": "/static/media/MyImg.7689f9e2.jpg",
+    "static/media/chatApp.9f453053.png": "/static/media/chatApp.9f453053.png",
+    "static/media/ecommerce.6be2e7e9.png": "/static/media/ecommerce.6be2e7e9.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/weatherApp.6e657673.png": "/static/media/weatherApp.6e657673.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.76de7034.js",
-    "static/js/2.0bdde110.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.11d2ec43.chunk.js"
+    "static/js/runtime-main.e73e2e17.js",
+    "static/js/2.e1f8a35c.chunk.js",
+    "static/css/main.c79084fc.chunk.css",
+    "static/js/main.d8b75903.chunk.js"
   ]
 }

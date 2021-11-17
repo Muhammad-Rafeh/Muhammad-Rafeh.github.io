@@ -12,8 +12,15 @@
   src : local('AzeretMono'), url(./fonts/Montserrat-Regular.woff) format('woff');
 }
 
+html {
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+}
+
 .App {
   text-align: center;
+
+  
 }
 
 .App-logo {
@@ -28,17 +35,16 @@
 }
 
 .App-header {
-  background-image: url(./images/bgImg3updated2.jpg);
-  background-repeat: no-repeat;
-  background-size: 100vw;
+  background-image: linear-gradient( to bottom , hsl(243, 100%, 23%) , #BA41A5);
+  /* background-color: #BA41A5; */
+  
+  /* rgb(239, 236, 236);  #CCCFC8 */
+  font-size: calc(10px + 2vmin);
   
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: row; */
-  /* align-items: center; */
-  /* justify-content: space-around; */
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-size: 100vw;
+  
+ 
 }
 
 .App-link {
@@ -55,48 +61,22 @@
 }
 
 
-.nav-wrapper {
 
-  font-size: 15px;
-  font-family: 'round-edges';
-  font-weight: 900;
 
-  min-height : 10vh ; 
-  display: flex;
-  flex-direction: row;
-
-  opacity: 0.8;
-  
-  color: rgb(0, 221, 255);
-  justify-content: space-around;
-  align-items: center;
-}
-.hr {
-  background-color: rgb(72, 71, 71);
-  border: none;
-  height: 1px;
-}
-.logo-h2 span {
-  color :rgb(0, 221, 255);
-
-}
-.logo-h2 {
-  color: white;
-}
-.name {
-  background-image: linear-gradient(to right,   rgb(156, 245, 255),rgb(0, 221, 255),#2a2aff);
-  /* background-image: linear-gradient(to right,   #ad06f6,#00e1ff); */
-  /* background-color: rgb(0, 221, 255); */
-  color: black;
-  padding: 10px;
-  padding: 10px 20px 10px 20px;
-  border-radius: 3px;
-  font-family: 'Montserrat';
-  font-weight: 700;
-}
 .img-entry {
   position: absolute;
   height: 200px;
   margin-top: 30vh;
   
+}
+.nav-stick {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px;
+  z-index: 1;
+}
+.nav-stick1 {
+  overflow: none;
 }

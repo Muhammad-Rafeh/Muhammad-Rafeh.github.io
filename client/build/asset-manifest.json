@@ -1,28 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.91193bd2.chunk.css",
-    "main.js": "/static/js/main.410f0355.chunk.js",
-    "main.js.map": "/static/js/main.410f0355.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c2e1d9d2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c2e1d9d2.js.map",
-    "static/js/2.51578ce1.chunk.js": "/static/js/2.51578ce1.chunk.js",
-    "static/js/2.51578ce1.chunk.js.map": "/static/js/2.51578ce1.chunk.js.map",
-    "static/js/3.5f0a6d89.chunk.js": "/static/js/3.5f0a6d89.chunk.js",
-    "static/js/3.5f0a6d89.chunk.js.map": "/static/js/3.5f0a6d89.chunk.js.map",
+    "main.css": "/static/css/main.0816dd2d.chunk.css",
+    "main.js": "/static/js/main.a2374ada.chunk.js",
+    "main.js.map": "/static/js/main.a2374ada.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.02561366.js",
+    "runtime-main.js.map": "/static/js/runtime-main.02561366.js.map",
+    "static/js/2.6b2be97a.chunk.js": "/static/js/2.6b2be97a.chunk.js",
+    "static/js/2.6b2be97a.chunk.js.map": "/static/js/2.6b2be97a.chunk.js.map",
+    "static/js/3.49f0c777.chunk.js": "/static/js/3.49f0c777.chunk.js",
+    "static/js/3.49f0c777.chunk.js.map": "/static/js/3.49f0c777.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.91193bd2.chunk.css.map": "/static/css/main.91193bd2.chunk.css.map",
-    "static/js/2.51578ce1.chunk.js.LICENSE.txt": "/static/js/2.51578ce1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bgImg3updated2.233e6b3b.jpg",
+    "static/css/main.0816dd2d.chunk.css.map": "/static/css/main.0816dd2d.chunk.css.map",
+    "static/js/2.6b2be97a.chunk.js.LICENSE.txt": "/static/js/2.6b2be97a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/VarelaRound-Regular.78d2a3e3.woff",
+    "static/media/nav.css": "/static/media/MontaguSlabSemiBold.a5c35607.woff",
     "static/media/MyImg.7689f9e2.jpg": "/static/media/MyImg.7689f9e2.jpg",
+    "static/media/landingPanel.css": "/static/media/bgImgLandingPanelPlane.d7e3ac09.jpg",
     "static/media/chatApp.9f453053.png": "/static/media/chatApp.9f453053.png",
     "static/media/ecommerce.6be2e7e9.png": "/static/media/ecommerce.6be2e7e9.png",
+    "static/media/foxImage.f70848f0.png": "/static/media/foxImage.f70848f0.png",
+    "static/media/hand.84be6bca.png": "/static/media/hand.84be6bca.png",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
-    "static/media/weatherApp.6e657673.png": "/static/media/weatherApp.6e657673.png"
+    "static/media/manFace.c4c95e0b.png": "/static/media/manFace.c4c95e0b.png",
+    "static/media/mypngimg1.9dfb1a15.png": "/static/media/mypngimg1.9dfb1a15.png",
+    "static/media/tireLogo.b8e0791a.png": "/static/media/tireLogo.b8e0791a.png",
+    "static/media/weatherApp.6e657673.png": "/static/media/weatherApp.6e657673.png",
+    "static/media/womanFace.55eb0cd0.png": "/static/media/womanFace.55eb0cd0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2e1d9d2.js",
-    "static/js/2.51578ce1.chunk.js",
-    "static/css/main.91193bd2.chunk.css",
-    "static/js/main.410f0355.chunk.js"
+    "static/js/runtime-main.02561366.js",
+    "static/js/2.6b2be97a.chunk.js",
+    "static/css/main.0816dd2d.chunk.css",
+    "static/js/main.a2374ada.chunk.js"
   ]
 }

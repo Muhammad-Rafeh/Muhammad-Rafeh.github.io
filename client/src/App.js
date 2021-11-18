@@ -85,7 +85,7 @@ function App() {
           <About />
           {/* <img src={hand} />
           <img src={womanFace} /> */}
-          <img src={manFace} className="namFace"/>
+          {/* <img src={manFace} className="namFace"/> */}
           {/* <Home /> */}
         </motion.div>
           :""

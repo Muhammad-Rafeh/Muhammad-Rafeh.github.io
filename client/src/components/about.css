@@ -1,15 +1,75 @@
+.about-container {
+    background: url('../images/manFace.png') left top no-repeat,linear-gradient( to bottom , #341d4f , #a2442d);
+    background-size: 63vh;
+    /* padding-top: 100px; */
+    height: 150vh;
+    /* background-origin: border-box; */
+    /* z-index: -2; */
+    display: block;
+   
+    
+        }
 .about-fox {
-    margin: 100px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: space-between;
+    align-content: space-around;
+    justify-content: space-around;
+    
     /* background-color: rgb(	232, 213, 181 ,0.5); rgb(72,36,113)  rgb(186,87,62,0.5) */
-    background-image: linear-gradient(to right, rgb(	232, 213, 181 ,0.5) , rgb(72,36,113, 0.5));
+    /* background-image: linear-gradient(to right, rgb(	232, 213, 181 ,0.5) , rgb(72,36,113, 0.5));
+    z-index: 1; */
+}
+
+.about-fox-text {
+    background-color: rgb(255,255,255,0.4);
+     /* box-shadow: 2px 3px 5px  rgb(51, 50, 50);  */
+    height: 400px;
+    width: 400px;
+    border-radius: 3px;
+    font-family: 'RalewaylightItalic';
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 0 10px 0 10px;
+     margin-left: -20px;
+   
+}
+.about-fox-heading {
+    font-family: 'RalewayLight';
+    
+    margin : 20px 0 20px 0;
+    color: #FDF7FF;
+    font-size: 30px;
+    
+}
+.about-fox-p {
+    text-align: justify;
+    font-weight:100;
+    font-size: 19px;
+    padding : 0 15px 0 15px;
 }
 
 .about-img {
     height: 100px;
     padding: 100px;
-    z-index: -1;
+    z-index: 0;
+}
+.about-workbench-img-wrapper {
+    height: 100%;
+    margin-right : -30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: flex-end;
+    /* margin-top: auto; */
+    
+}
+
+.about-workbench-img {
+    height: 400px;
+    /* display: flex;
+    align-items: flex-start;
+    ;
+    flex-direction: column; */
 }

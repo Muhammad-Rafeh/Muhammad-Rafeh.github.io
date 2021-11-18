@@ -3,6 +3,15 @@
   src: local('round-edges'), url(./fonts/VarelaRound-Regular.woff) format('woff');
 }
 
+@font-face {
+  font-family : "RalewayLightItalic";
+  src: local('round-edges'), url(./fonts/Raleway-LightItalic.woff) format('woff');
+}
+@font-face {
+  font-family : "RalewayLight";
+  src: local('round-edges'), url(./fonts/Raleway-Light.woff) format('woff');
+}
+
 @font-face{
   font-family: "AzeretMono";
   src : local('AzeretMono'), url(./fonts/AzeretMono-VariableFont_wght.woff) format('woff');
@@ -35,9 +44,9 @@ html {
 }
 
 .App-header {
-  background-image: linear-gradient( to bottom , hsl(243, 100%, 23%) , #BA41A5);
+  /* background-image: linear-gradient( to bottom , hsl(243, 100%, 23%) , #BA41A5); */
   /* background-color: #BA41A5; */
-  
+  background-color: #CCCFC8;
   /* rgb(239, 236, 236);  #CCCFC8 */
   font-size: calc(10px + 2vmin);
   

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0816dd2d.chunk.css",
-    "main.js": "/static/js/main.a2374ada.chunk.js",
-    "main.js.map": "/static/js/main.a2374ada.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.02561366.js",
-    "runtime-main.js.map": "/static/js/runtime-main.02561366.js.map",
-    "static/js/2.6b2be97a.chunk.js": "/static/js/2.6b2be97a.chunk.js",
-    "static/js/2.6b2be97a.chunk.js.map": "/static/js/2.6b2be97a.chunk.js.map",
-    "static/js/3.49f0c777.chunk.js": "/static/js/3.49f0c777.chunk.js",
-    "static/js/3.49f0c777.chunk.js.map": "/static/js/3.49f0c777.chunk.js.map",
+    "main.css": "/static/css/main.b330b41c.chunk.css",
+    "main.js": "/static/js/main.0c0dc099.chunk.js",
+    "main.js.map": "/static/js/main.0c0dc099.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33849023.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33849023.js.map",
+    "static/js/2.0095e3c5.chunk.js": "/static/js/2.0095e3c5.chunk.js",
+    "static/js/2.0095e3c5.chunk.js.map": "/static/js/2.0095e3c5.chunk.js.map",
+    "static/js/3.7e98c6c8.chunk.js": "/static/js/3.7e98c6c8.chunk.js",
+    "static/js/3.7e98c6c8.chunk.js.map": "/static/js/3.7e98c6c8.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0816dd2d.chunk.css.map": "/static/css/main.0816dd2d.chunk.css.map",
-    "static/js/2.6b2be97a.chunk.js.LICENSE.txt": "/static/js/2.6b2be97a.chunk.js.LICENSE.txt",
+    "static/css/main.b330b41c.chunk.css.map": "/static/css/main.b330b41c.chunk.css.map",
+    "static/js/2.0095e3c5.chunk.js.LICENSE.txt": "/static/js/2.0095e3c5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/VarelaRound-Regular.78d2a3e3.woff",
     "static/media/nav.css": "/static/media/MontaguSlabSemiBold.a5c35607.woff",
     "static/media/MyImg.7689f9e2.jpg": "/static/media/MyImg.7689f9e2.jpg",
@@ -21,16 +21,17 @@
     "static/media/foxImage.f70848f0.png": "/static/media/foxImage.f70848f0.png",
     "static/media/hand.84be6bca.png": "/static/media/hand.84be6bca.png",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
-    "static/media/manFace.c4c95e0b.png": "/static/media/manFace.c4c95e0b.png",
+    "static/media/about.css": "/static/media/manFace.c4c95e0b.png",
     "static/media/mypngimg1.9dfb1a15.png": "/static/media/mypngimg1.9dfb1a15.png",
     "static/media/tireLogo.b8e0791a.png": "/static/media/tireLogo.b8e0791a.png",
     "static/media/weatherApp.6e657673.png": "/static/media/weatherApp.6e657673.png",
-    "static/media/womanFace.55eb0cd0.png": "/static/media/womanFace.55eb0cd0.png"
+    "static/media/womanFace.55eb0cd0.png": "/static/media/womanFace.55eb0cd0.png",
+    "static/media/workBench.4c698118.png": "/static/media/workBench.4c698118.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.02561366.js",
-    "static/js/2.6b2be97a.chunk.js",
-    "static/css/main.0816dd2d.chunk.css",
-    "static/js/main.a2374ada.chunk.js"
+    "static/js/runtime-main.33849023.js",
+    "static/js/2.0095e3c5.chunk.js",
+    "static/css/main.b330b41c.chunk.css",
+    "static/js/main.0c0dc099.chunk.js"
   ]
 }

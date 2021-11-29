@@ -62,9 +62,9 @@
     
 }
 .lp-name {
-    font-family: 'RalewayBold';
-    font-size: 40px;
-    background: -webkit-linear-gradient(#23022E, #C228F6);
+    font-family: 'Josefins-Sans';
+    font-size: 70px;
+    background: -webkit-linear-gradient(#23022E, #9002c0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

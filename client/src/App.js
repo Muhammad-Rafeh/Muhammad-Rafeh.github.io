@@ -7,6 +7,7 @@ import EntryAnimationImage from './components/EntryAnimationImage';
 import Nav from './components/Nav';
 import LandingPanel from './components/LandingPanel';
 import About from './components/About.js';
+import Skill from './components/Skill.js';
 import './App.css';
 import { motion } from 'framer-motion';
 import MyImg from './images/MyImg.jpg';
@@ -83,6 +84,7 @@ function App() {
           <hr className="hr" />
           <LandingPanel />
           <About />
+          <Skill />
           {/* <img src={hand} />
           <img src={womanFace} /> */}
           {/* <img src={manFace} className="namFace"/> */}
@@ -90,12 +92,7 @@ function App() {
         </motion.div>
           :""
         }
-       <p>a</p><br/>
-       <p>a</p><br/>
-        <p>a</p><br/>
-        <p>a</p><br/>
-        <p>a</p><br/>
-        <p>a</p><br/>
+       
       </header>
     </div>
   );

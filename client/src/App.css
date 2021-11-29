@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family : "Josefins-Sans";
+  src: local('round-edges'), url(./fonts/JosefinSans-Medium.woff) format('woff');
+}
+
+@font-face {
   font-family : "RalewayLightItalic";
   src: local('round-edges'), url(./fonts/Raleway-LightItalic.woff) format('woff');
 }

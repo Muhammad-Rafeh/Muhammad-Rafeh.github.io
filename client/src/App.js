@@ -4,13 +4,16 @@ import manFace from './images/manFace.png'
 import womanFace from './images/womanFace.png'
 import Home from './components/Home'
 import EntryAnimationImage from './components/EntryAnimationImage';
-import Nav from './components/Nav';
+import Nav from './components/navigation/Nav';
 import LandingPanel from './components/LandingPanel';
+import ProjectsCarousel from './components/projectsCarousel/ProjectsCarousel';
 import About from './components/About.js';
 import Skill from './components/Skill.js';
+import Projects from './components/Projects.js';
 import './App.css';
 import { motion } from 'framer-motion';
 import MyImg from './images/MyImg.jpg';
+import mypngimg2 from './images/mypngimg2.jpg'
 import { useEffect, useState }  from 'react'
 
 
@@ -81,14 +84,12 @@ function App() {
        {/* <Nav className="nav-stick"/>  */}
 
           {/* <Nav /> */}
-          <hr className="hr" />
+         
           <LandingPanel />
+          <ProjectsCarousel />
           <About />
           <Skill />
-          {/* <img src={hand} />
-          <img src={womanFace} /> */}
-          {/* <img src={manFace} className="namFace"/> */}
-          {/* <Home /> */}
+          <Projects />
         </motion.div>
           :""
         }

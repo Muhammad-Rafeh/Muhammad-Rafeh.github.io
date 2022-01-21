@@ -40,10 +40,12 @@
     display: flex;
     flex-direction: row;
     background-size: cover;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 515px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+    max-width: 1200px;
+    margin : auto;
     
 }
 .lp-datawrapper {
@@ -54,6 +56,8 @@
     font-family: 'Raleway';
     font-weight: 900;
     font-size: 25px;
+    padding-left: 47px;
+    text-align: left;
 
     /* background: -webkit-linear-gradient(#23022E, #5900ff);
   -webkit-background-clip: text;
@@ -62,13 +66,81 @@
     
 }
 .lp-name {
-    font-family: 'Josefins-Sans';
+    font-family: 'Josefin Sans';
+    font-weight: 700;
     font-size: 70px;
     background: -webkit-linear-gradient(#23022E, #9002c0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color : transparent ;
+}
+.lp-data {
+    padding-left: 5px;
+}
+.lp-mypngimg-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 40px;
+    align-self: flex-end;
 }
 .lp-mypngimg {
-    height : 85vh;
-    padding-top:    75px;
+    
+    height : 450px;
+    /* padding-top:    75px; */
+}
+
+@media screen and (max-width: 992px) {
+    .lp-container {
+        height: 470px;
+    }
+    .lp-mypngimg {
+        height : 400px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .lp-container {
+        height: 450px;
+    }
+    .lp-mypngimg {
+        height : 358px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .lp-container {
+        height: 400px;
+    }
+    .lp-mypngimg {
+        height : 329px;
+    }
+}
+@media screen and (max-width: 769px) {
+   .lp-container {
+       flex-direction: column;
+       height: fit-content;
+       justify-content: center;
+       align-items: start;
+   }
+   .lp-mypngimg-wrapper{
+       align-items: center;
+       justify-content: center;
+       align-self: center;
+       padding-top: 80px;
+   }
+   .lp-mypngimg {
+       height : 50vw;
+   }
+   .lp-datawrapper{
+       padding-top: 100px;
+   }
+   .lp-datawrapper {
+       padding-left: 20px;
+   }
+}
+@media screen and (max-width: 550px) {
+    .lp-name {
+        font-size: 2.8rem;
+    }
+    .lp-data {
+        font-size: 18px;
+    }
 }

@@ -1,6 +1,59 @@
+.skill-container {
+    background: url('../images/cogImg.png') right bottom no-repeat,linear-gradient( to bottom,#B39CD0,#CCCFC8,#CCCFC8,#CCCFC8, #B39CD0 );
+    background-size: 200px;
+   
+    max-width: 1200px;
+    margin: auto;
+
+}
+.skill-text-wrapper {
+    display: flex;
+    align-content: flex-start;
+    padding-left: 100px;
+}
 .skill-p {
-    font-family: "Josefins-Sans";
-    font-size: 150px;
-    color: rgb(109, 0, 114);
+    font-family: "Josefin Sans";
+    font-size: 60px;
+    color:#6538ae;
     padding-top: 20px;
+    /* text-shadow: 3px 3px 3px #717172; */
+   
+}
+.skill-cog-img {
+    height: 200px;
+}
+
+.progress-top-heading {
+    height : 10px;
+}
+
+.progress-circle {
+    background-color: #6538ae;
+    padding: 10px;
+    height: 41px;
+    box-shadow: 3px 3px 5px #888888;
+}
+.progress-icon {
+    color: white;
+    height: 20px;
+    width: 20px;
+   
+}
+.progress-skill {
+    font-family: "Josefin Sans";
+   
+    color:#6538ae;
+    font-weight: 600;
+    text-shadow: 3px 3px 5px #c1c1c1;
+    margin-left: 20px;
+    text-align: left;
+}
+.progress {
+    width: 300px;
+    height: 8px !important;
+    background-color:rgba(255, 253, 253, 0.738) !important;
+    margin-left: 20px;
+}
+.progress-bar {
+    background-color: #6538ae !important;
 }

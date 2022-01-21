@@ -3,10 +3,10 @@
   src: local('round-edges'), url(./fonts/VarelaRound-Regular.woff) format('woff');
 }
 
-@font-face {
+/* @font-face {
   font-family : "Josefins-Sans";
   src: local('round-edges'), url(./fonts/JosefinSans-Medium.woff) format('woff');
-}
+} */
 
 @font-face {
   font-family : "RalewayLightItalic";
@@ -21,10 +21,13 @@
   font-family: "AzeretMono";
   src : local('AzeretMono'), url(./fonts/AzeretMono-VariableFont_wght.woff) format('woff');
 }
-@font-face{
+/* @font-face{
   font-family: "Montserrat";
   src : local('AzeretMono'), url(./fonts/Montserrat-Regular.woff) format('woff');
-}
+} */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 html {
   overflow: -moz-scrollbars-vertical; 
@@ -92,5 +95,10 @@ html {
   z-index: 1;
 }
 .nav-stick1 {
-  overflow: none;
+  overflow: hidden;
+}
+.below-progress-img {
+  width : 100%;
+  max-width: 1200px;
+  margin: auto;
 }

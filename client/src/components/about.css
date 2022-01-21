@@ -1,19 +1,17 @@
 .about-container {
     background: url('../images/manFace.png') left top no-repeat,linear-gradient( to bottom , #2c2c2c , #4b1b5e);
-    background-size: 70vh;
-    /* padding-top: 100px; */
-    
-    /* background-origin: border-box; */
-    /* z-index: -2; */
+    background-size: 365px;
+    max-width: 1200px;
+    margin: auto;
     display: block;
-   
-    
-        }
-
+}
+/* 1020px */
 .about-particle {
     position: fixed !important;
-display: block;
-height: 180vh;
+    /* display: block; */
+    height: 1020px;
+    width: 1200px;
+    margin: auto;
 }
 
 .about-upper-shadow {
@@ -30,10 +28,12 @@ height: 180vh;
 
 
 .about-heading{
-    font-family: "Josefins-Sans";
+    font-family: "Josefin Sans";
+    font-weight: 700;
     font-size: 150px;
     color: rgb(209, 202, 202);
     padding-top: 20px;
+    
 }
 
 .about-svg {
@@ -58,7 +58,7 @@ height: 180vh;
 
 
 .about-main-grid {
-    height: 150vh;
+    height: 820px;
     display: flex;
     flex-direction: row;
     align-items: center;

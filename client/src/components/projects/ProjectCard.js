@@ -1,8 +1,8 @@
 import React from 'react'
-import chatApp from '../images/chatApp.png'
-import ecommerceWebsite from '../images/ecommerce.png'
-import weatherApp from '../images/weatherApp.png'
-import webSolution from '../images/sparetoolz.png'
+import chatApp from '../../images/chatApp.png'
+import ecommerceWebsite from '../../images/ecommerce.png'
+import weatherApp from '../../images/weatherApp.png'
+import webSolution from '../../images/sparetoolz.png'
 
 export default function PojectCardLayout({data}){
     return(

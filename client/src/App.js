@@ -9,7 +9,7 @@ import LandingPanel from './components/LandingPanel';
 import ProjectsCarousel from './components/projectsCarousel/ProjectsCarousel';
 import About from './components/About.js';
 import Skill from './components/Skill.js';
-import Projects from './components/Projects.js';
+import Projects from './components/projects/Projects.js';
 import './App.css';
 import { motion } from 'framer-motion';
 import MyImg from './images/MyImg.jpg';
@@ -87,9 +87,10 @@ function App() {
          
           <LandingPanel />
           <ProjectsCarousel />
+          <Projects />
           <About />
           <Skill />
-          <Projects />
+          
         </motion.div>
           :""
         }

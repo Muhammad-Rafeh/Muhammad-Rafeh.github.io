@@ -1,5 +1,5 @@
 .projects-carousel-wrapper {
-    background-color: #9B89B3;
+    background-color: #B0A8B9;
     box-shadow: inset 0px 3px 10px rgb(104, 102, 102);
     max-width: 1200px;
     margin: auto;
@@ -9,8 +9,12 @@
 }
 .projects-carousel-cards-data-wrapper {
     /* background-color: #99E4D2; */
-    height: 440px;
-    width : 500px;
+    height: 350px;
+    width : 400px;
+    border-radius:  0 5px 5px 0;
+}
+.projects-carousel-cards-title-desc-wrapper {
+    padding: 35px 20px 20px 35px ;
 }
 .projects-carousel-cards-data-heading {
     font-family: 'Josefin Sans';
@@ -22,7 +26,8 @@
     width: 35px;
 }
 .projects-carousel-cards-data-description {
-    font-size: 24px;
+    font-size: 20px;
+    padding-left: 3px;
 }
 .projects-carousel-cards-data-redirect-line {
     height : 1px ;
@@ -40,8 +45,96 @@
     width: 100%;
 }
 .projects-carousel-cards-data-redirect-text {
-    padding: 9px;
+    padding: 10px 9px 8px 38px;
 }
 .projects-carousel-cards-image {
-    height : 440px;
+    height : 350px;
+    border-radius: 5px 0 0 5px;
+    z-index: -1;
+    opacity: 0.1;
+    /* filter: brightness(20%); */
+}
+
+@keyframes foregroundAppear {
+    0% {
+       opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes foregroundDisappear {
+    0% {
+       opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.projects-carousel-cards-image-foreground {
+    position: absolute !important;
+    left: 50px;
+    top: 150px;
+    z-index: 1 !important;
+    opacity: 0;
+    animation: 0.3s ease-out 0s 0.3  foregroundDisappear;
+}
+.projects-carousel-cards-image-foreground-hover {
+    position: absolute !important;
+    left: 50px;
+    top: 150px;
+    animation: 0.3s ease-out 0s 0.3  foregroundAppear;
+    z-index: 1 !important;
+    visibility: visible !important;
+}
+.projects-carousel-cards-foreground-icon {
+    height : 100px;
+    width: 100px;
+    color: white;
+    z-index: 1 !important;
+}
+.projects-carousel-cards-foreground-text {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    z-index: 1;
+}
+.projects-carousel-cards-image2 {
+    background-image: url('../../images/chatApp.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+@keyframes imageDarken {
+    0% {
+        background-color: transparent;
+        opacity : 0;
+     }
+     100% {
+        background-color: rgba(0, 0, 0, 0.69);
+        opacity: 1;
+     }
+}
+.projects-carousel-cards-image-background {
+    background-position: center;
+    height: 350px;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.projects-carousel-cards-image-background-hover {
+    background-position: center;
+    height: 350px;
+    background-repeat:no-repeat;
+    background-size: contain;
+   
+}
+.projects-carousel-cards-image-data{
+    opacity: 0;
+}
+.projects-carousel-cards-image-data-hover {
+    background-color: rgba(0, 0, 0, 0.69);
+    animation: 0.3s ease-out 0s 0.3  imageDarken;
+    opacity: 1;
 }

@@ -1,6 +1,6 @@
 .projects-carousel-wrapper {
     background-color: #B0A8B9;
-    box-shadow: inset 0px 3px 10px rgb(104, 102, 102);
+    /* box-shadow: inset 0px 3px 10px rgb(104, 102, 102); */
     max-width: 1200px;
     margin: auto;
 }

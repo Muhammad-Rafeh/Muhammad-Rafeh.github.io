@@ -13,7 +13,6 @@ function NavIcon() {
     return (
         <div >
             <button className={navOpen ? "nav-icon-open":"nav-icon-button"} onClick={handleClick}>
-                {console.log("nav")}
                 <div className='nav-icon-div1'></div>
                 <div className='nav-icon-div2'></div>
                 <div className='nav-icon-div3'></div>

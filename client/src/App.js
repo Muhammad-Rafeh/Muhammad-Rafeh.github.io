@@ -7,6 +7,7 @@ import EntryAnimationImage from './components/EntryAnimationImage';
 import Nav from './components/navigation/Nav';
 import LandingPanel from './components/LandingPanel';
 import ProjectsCarousel from './components/projectsCarousel/ProjectsCarousel';
+import VideoCarousel from './components/videoCarousel/VideoCarousel';
 import About from './components/About.js';
 import Skill from './components/Skill.js';
 import Projects from './components/projects/Projects.js';
@@ -87,6 +88,7 @@ function App() {
          
           <LandingPanel />
           <ProjectsCarousel />
+          <VideoCarousel />
           <Projects />
           <About />
           <Skill />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState , useReducer , useRef, useMemo, useEffect } from 'react'
 import './projectsCarousel.css'
 import ProjectsCarouselCards from './ProjectsCarouselCards'
 import Marquee from "react-fast-marquee";
@@ -53,23 +53,154 @@ export default function ProjectsCarousel() {
     )
 }
 
+const initialDragState = {
+    directionFirst : "left",
+    directionSecond : "right",
+    mouseUp : true
+}
+
+function drag(state , action){
+    switch (action.type) {
+        case 'draggedFirstRight':
+          return {
+              ...state,
+              directionFirst : "right"
+            };
+        case 'draggedFirstLeft':
+            return {
+                ...state,
+                directionFirst : "left"
+            };
+        case 'draggedSecondRight':
+            return {
+                ...state,
+                directionSecond : "right"
+            };
+        case 'draggedSecondLeft':
+            return {
+                ...state,
+                directionSecond : "left"
+            };
+        case 'mouseUp' :
+            return {
+                ...state,
+                mouseUp : !state.mouseUp
+            }
+        default:
+            return {
+                ...state
+            };
+    }
+}
+
+const oldX = { oldX : 0 };
+
+let dispatchGlobal;
+
 function ProjectsCarouselCardsMarquee() {
+
+    const [ speedFirst, setSpeedFirst ] = useState(20);
+    const [ speedSecond, setSpeedSecond ] = useState(20);
+
+
+    const [state,dispatch] = useReducer(drag,initialDragState)
+    dispatchGlobal = dispatch;
+    const upperMarquee = useRef();
+    const lowerMarquee = useRef();
+
+    const handleDragFirst = useMemo(() => findDragDirectionFirst , []);
+    const handleDragSecond = useMemo(() => findDragDirectionSecond , []);
+
+    useEffect(()=>{
+
+        const UpperMarquee = upperMarquee.current;
+        
+
+        UpperMarquee.addEventListener("mousedown", () => {
+            UpperMarquee.addEventListener("mousemove",handleDragFirst);
+        }
+        );
+
+        UpperMarquee.addEventListener('mouseup', () => {
+            UpperMarquee.removeEventListener('mousemove',handleDragFirst)
+        });
+
+        return ()=>{
+            UpperMarquee.removeEventListener("mousedown",handleDragFirst);
+        }
+    },[])
+
+
+    useEffect(()=>{
+
+        const LowerMarquee = lowerMarquee.current;
+
+        LowerMarquee.addEventListener("mousedown", () => {
+            LowerMarquee.addEventListener("mousemove",handleDragSecond);
+        });
+
+        LowerMarquee.addEventListener('mouseup', () => {
+            LowerMarquee.removeEventListener('mousemove',handleDragSecond)
+        });
+
+        return ()=>{
+            LowerMarquee.removeEventListener("mousedown",handleDragSecond)
+        }
+    },[])
+
+
     return(
         <div>
-            <Marquee
-                gradient={false}
-            >
-                <ProjectsCarouselCards data={projects[0]}/>
-                <ProjectsCarouselCards data={projects[1]} />
-            </Marquee>
-            <Marquee
-                gradient={false}
-                direction='right'
-            > 
-                <ProjectsCarouselCards data={projects[2]}/>
-                <ProjectsCarouselCards data={projects[3]} />
-            </Marquee>
+            <div ref={upperMarquee} style={{"cursor":"grab"}}> 
+                <Marquee
+                    gradient={false}
+                    direction={state.directionFirst}
+                    speed={speedFirst}
+                >
+                    <ProjectsCarouselCards data={projects[0]}/>
+                    <ProjectsCarouselCards data={projects[1]} />
+                </Marquee>
+            </div>
+            <div ref={lowerMarquee} style={{"cursor":"grab"}}>
+                <Marquee
+                    gradient={false}
+                    direction={state.directionSecond}
+                    speed={speedSecond}
+                > 
+                    <ProjectsCarouselCards data={projects[2]}/>
+                    <ProjectsCarouselCards data={projects[3]} />
+                </Marquee>
+            </div>
         </div>
        
     )
+}
+
+function findDragDirectionFirst(e){
+           
+    if(oldX.oldX > e.pageX){
+        setDirection("First","Left");
+    }
+    if(oldX.oldX < e.pageX){
+        setDirection("First","Right");
+    }
+    oldX.oldX = e.pageX;
+    
+}
+
+function findDragDirectionSecond(e){
+           
+    if(oldX.oldX > e.pageX){
+        setDirection("Second","Left");
+    }
+    if(oldX.oldX < e.pageX){
+        setDirection("Second","Right");
+    }
+    oldX.oldX = e.pageX;
+    
+}
+
+function setDirection(marquee,direction){
+const event = "dragged"+marquee+direction;
+dispatchGlobal({type:event});
 }

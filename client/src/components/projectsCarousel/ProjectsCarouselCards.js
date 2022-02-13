@@ -17,11 +17,9 @@ export default function ProjectsCarouselCards({ data }) {
     const [ hover , setHover ] = useState(0); 
 
     const handleHover = () => {
-        console.log(hover);
         setHover(data.imgId);
     }
     const resetHover = () => {
-        console.log(hover);
         setHover(0);
     }
 
@@ -92,24 +90,6 @@ function ProjectsCarouselCardsImageBackground({ hover , imgId , imgStyle }){
                 <FaPlay className='projects-carousel-cards-foreground-icon me-4' />
                 <div className='projects-carousel-cards-foreground-text'>Video</div>
             </div>
-        </div>
-    )
-}
-//// : "projects-carousel-cards-image-foreground d-flex align-items-center"
-function ProjectsCarouselCardsImageForeground({ hover, imgId }){
-    return(
-        <div className={"projects-carousel-cards-image-foreground-hover d-flex align-items-center" } >
-            <FaPlay className='projects-carousel-cards-foreground-icon me-4' />
-            <div className='projects-carousel-cards-foreground-text'>Video</div>
-        </div>
-    )
-}
-
-function ProjectsCarouselCardsImageForeground2({ hover, imgId }){
-    return(
-        <div className={"projects-carousel-cards-image-foreground-hover d-flex align-items-center" } >
-            <FaPlay className='projects-carousel-cards-foreground-icon me-4' />
-            <div className='projects-carousel-cards-foreground-text'>Video</div>
         </div>
     )
 }

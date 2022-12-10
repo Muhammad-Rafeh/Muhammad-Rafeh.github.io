@@ -144,8 +144,8 @@ self.__precacheManifest = [
     "url": "/static/media/blackbg.cacfb78f.jpg"
   },
   {
-    "revision": "c3ce46c5dc16e52851c54808d7b022a6",
-    "url": "/static/media/AzeretMono-VariableFont_wght.c3ce46c5.woff"
+    "revision": "4dac82fab506c26a10dba8de3ea6ad6e",
+    "url": "/static/media/VarelaRound-Regular.4dac82fa.woff"
   },
   {
     "revision": "1ed727b3dd925360790543597376fc93",
@@ -156,8 +156,8 @@ self.__precacheManifest = [
     "url": "/static/media/Raleway-Light.0946db87.woff"
   },
   {
-    "revision": "4dac82fab506c26a10dba8de3ea6ad6e",
-    "url": "/static/media/VarelaRound-Regular.4dac82fa.woff"
+    "revision": "c3ce46c5dc16e52851c54808d7b022a6",
+    "url": "/static/media/AzeretMono-VariableFont_wght.c3ce46c5.woff"
   },
   {
     "revision": "bd47054f0f3959925d1caaad11c0ee11",

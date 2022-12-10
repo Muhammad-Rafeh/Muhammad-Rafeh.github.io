@@ -28,13 +28,22 @@ function Options({ clickedVideo }){
                 <Option name={"Chat App"} />
             </button>
             <button onClick={()=>clickedVideo(2)}>
-                <Option name={"Chat App"} />
+                <Option name={"Weather App"} />
             </button>
             <button onClick={()=>clickedVideo(3)}>
-                <Option name={"Chat App"} />
+                <Option name={"Ecommerce App"} />
             </button>
             <button onClick={()=>clickedVideo(4)}>
-                <Option name={"Chat App"} />
+                <Option name={"Web Solution App"} />
+            </button>
+            <button onClick={()=>clickedVideo(5)}>
+                <Option name={"Event Ecommerce Platform"} />
+            </button>
+            <button onClick={()=>clickedVideo(6)}>
+                <Option name={"Software Business Website"} />
+            </button>
+            <button onClick={()=>clickedVideo(7)}>
+                <Option name={"Vehicle Security Solution"} />
             </button>
         </div>
     )

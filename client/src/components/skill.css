@@ -1,26 +1,39 @@
 .skill-container {
-    background: url('../images/cogImg.png') right bottom no-repeat,linear-gradient( to bottom,#B39CD0,#CCCFC8,#CCCFC8,#CCCFC8, #B39CD0 );
     background-size: 200px;
-   
-    max-width: 1200px;
+    background-color: #296073;
+    /* max-width: 1200px; */
     margin: auto;
+    background-image: linear-gradient( #008F7A, #008E9B, #0089BA, #0081CF, #2C73D2, #845EC2);
 
+}
+.skill-content-container {
+    background-image: url('../images/paintSplatter.png');
+    background-size: 400px;
+}
+.skill-content {
+    z-index: 1;
 }
 .skill-text-wrapper {
     display: flex;
-    align-content: flex-start;
+    align-content: center;
     padding-left: 100px;
+    padding-top: 30px;
 }
 .skill-p {
     font-family: "Josefin Sans";
-    font-size: 60px;
-    color:#6538ae;
-    padding-top: 20px;
-    /* text-shadow: 3px 3px 3px #717172; */
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 150px;
+    color: white;
    
 }
 .skill-cog-img {
     height: 200px;
+}
+
+.progress-container {
+    background-color: rgba(0, 0, 0, 0.12);
+    margin: 3px 3px 0 0;
 }
 
 .progress-top-heading {
@@ -28,25 +41,19 @@
 }
 
 .progress-circle {
-    background-color: #6538ae;
-    padding: 10px;
-    height: 41px;
-    box-shadow: 3px 3px 5px #888888;
+    /* height: 41px; */
 }
+
 .progress-icon {
     color: white;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
    
 }
 .progress-skill {
     font-family: "Josefin Sans";
-   
-    color:#6538ae;
+    color:white;
     font-weight: 600;
-    text-shadow: 3px 3px 5px #c1c1c1;
-    margin-left: 20px;
-    text-align: left;
 }
 .progress {
     width: 300px;
@@ -56,4 +63,80 @@
 }
 .progress-bar {
     background-color: #6538ae !important;
+}
+
+.brain-img-wrapper {
+    height: 450px;
+}
+.brain-img {
+    height: 450px;
+}
+
+@media screen and (max-width: 1130px) {
+    .brain-img-wrapper {
+        height: 400px;
+    }
+    .brain-img {
+        height: 400px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1050px) {
+    .brain-img-wrapper {
+        height: 350px;
+    }
+    .brain-img {
+        height: 350px;
+    }
+    
+}
+
+
+@media screen and (max-width: 860px) {
+    .brain-img-wrapper {
+        height: 300px;
+    }
+    .brain-img {
+        height: 300px;
+    }
+    
+}
+
+
+@media screen and (max-width: 760px) {
+    .brain-img-wrapper {
+        height: 250px;
+    }
+    .brain-img {
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .brain-img-wrapper {
+        height: 300px;
+        position: absolute;
+    }
+    .brain-img {
+        height: 300px;
+    }
+
+    .skill-text-wrapper {
+        display: flex;
+        align-content: center;
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .skill-p {
+        font-family: "Josefin Sans";
+        font-family: "Josefin Sans";
+        font-weight: 700;
+        font-size: 75px;
+        color: white;
+       
+    }
+
 }

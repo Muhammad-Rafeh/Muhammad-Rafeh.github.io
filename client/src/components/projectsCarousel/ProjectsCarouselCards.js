@@ -6,7 +6,8 @@ import webSolution from '../../images/sparetoolz.png'
 import { BsFillChatQuoteFill, BsArrowRight } from 'react-icons/bs'
 import { AiFillShop } from 'react-icons/ai'
 import { TiWeatherWindyCloudy } from 'react-icons/ti'
-import { FaTools, FaPlay } from 'react-icons/fa'
+import { FaTools } from 'react-icons/fa'
+import { BiPlay } from 'react-icons/bi'
 import { GrPlayFill } from 'react-icons/gr'
 
 
@@ -14,13 +15,13 @@ import './projectsCarousel.css';
 
 export default function ProjectsCarouselCards({ data }) {
 
-    const [ hover , setHover ] = useState(0); 
+    const [ hover , setHover ] = useState(false); 
 
     const handleHover = () => {
-        setHover(data.imgId);
+        setHover(true);
     }
     const resetHover = () => {
-        setHover(0);
+        setHover(false);
     }
 
     return (
@@ -85,9 +86,9 @@ function getImageUrl(imgId){
 
 function ProjectsCarouselCardsImageBackground({ hover , imgId , imgStyle }){
     return(
-        <div className={hover===imgId ? 'projects-carousel-cards-image-background-hover':'projects-carousel-cards-image-background'} style={imgStyle}>
-            <div className={hover===imgId ? "projects-carousel-cards-image-data-hover d-flex align-items-center h-100 ps-5":"projects-carousel-cards-image-data d-flex align-items-center h-100 ps-5" } >
-                <FaPlay className='projects-carousel-cards-foreground-icon me-4' />
+        <div className='projects-carousel-cards-image-background' style={imgStyle}>
+            <div className="projects-carousel-cards-image-data d-flex align-items-end h-100 ps-5" >
+                <BiPlay className='projects-carousel-cards-foreground-icon' />
                 <div className='projects-carousel-cards-foreground-text'>Video</div>
             </div>
         </div>

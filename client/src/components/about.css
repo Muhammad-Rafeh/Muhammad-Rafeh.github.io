@@ -1,3 +1,8 @@
+.about-container-global {
+    background-image: linear-gradient( to bottom , #2c2c2c , #4b1b5e);
+    height: 1150px;
+}
+
 .about-container {
     background: url('../images/manFace.png') left top no-repeat,linear-gradient( to bottom , #2c2c2c , #4b1b5e);
     background-size: 365px;
@@ -5,27 +10,6 @@
     margin: auto;
     display: block;
 }
-/* 1020px */
-.about-particle {
-    position: fixed !important;
-    /* display: block; */
-    height: 1020px;
-    width: 1200px;
-    margin: auto;
-}
-
-.about-upper-shadow {
-    height: 1px;
-    width: 100%;
-    box-shadow: 0px 2px 10px rgb(0, 0, 0);
-}
-.about-lower-shadow {
-    height: 1px;
-    width: 100%;
-    box-shadow: 0px 2px 8px rgb(0, 0, 0);
-    
-}
-
 
 .about-heading{
     font-family: "Josefin Sans";
@@ -36,27 +20,6 @@
     
 }
 
-.about-svg {
-    width:500px;
-}
-@keyframes bob {
-    from{
-        transform : rotateX(20deg);
-    }
-   
-}
-
-#man,#woman {
-    position: relative;
-    animation-name: bob;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-
 .about-main-grid {
     height: 820px;
     display: flex;
@@ -64,17 +27,12 @@
     align-items: center;
     align-content: space-around;
     justify-content: space-around;
-    
-    /* background-color: rgb(	232, 213, 181 ,0.5); rgb(72,36,113)  rgb(186,87,62,0.5) */
-    /* background-image: linear-gradient(to right, rgb(	232, 213, 181 ,0.5) , rgb(72,36,113, 0.5));
-    z-index: 1; */
 }
 
 .about-p {
-    /* background-color: rgb(255,255,255,0.4); */
-     /* box-shadow: 2px 3px 5px  rgb(51, 50, 50);  */
     height:100%;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 3px;
     font-family: 'Ralewaylight';
     font-size: 18px;
@@ -94,17 +52,48 @@
 .about-first-para,.about-second-para{
     padding: 100px 0 20px 0;
 }
+
 .about-first-para{
     position: relative;
-    left: -50px;
-}
-.about-svg-wrapper {
-    height: 100%;
-    /* margin-right : -30px; */
-    display: flex;
-    flex-direction: column-reverse;
-    align-self: flex-end;
-    /* margin-top: auto; */
-    
+    right: -100px;
 }
 
+@media screen and (max-width: 992px) {
+    .about-first-para{
+      position: relative;
+      right: -100px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .about-first-para{
+      position: relative;
+      right: -150px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about-container {
+        background-size: 300px;
+    }
+
+    .about-first-para{
+      position: relative;
+      right: 0;
+    }
+    .about-p {
+        padding: 300px 20px 0 20px;
+        font-size: 15px;
+    }
+    .about-heading {
+        font-size: 100px
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .about-p {
+        padding: 150px 20px 0 20px;
+        font-size: 15px;
+    }
+}

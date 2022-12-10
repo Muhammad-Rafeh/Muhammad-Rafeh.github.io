@@ -2,18 +2,6 @@ import React, { useState , useEffect } from 'react';
 import { motion } from 'framer-motion';
 import NavIcon from './NavIcon';
 import './nav.css'
-// import NavDropDown from './NavDropDown';
-
-const name={
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        delay : 1,
-        delayChildren: 0.5
-      }
-    }
-  }
 
 export default function Nav() {
 

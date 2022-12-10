@@ -1,0 +1,18 @@
+.firstblock {
+   position: relative;
+   right: 100%;
+}
+
+.secondblock {
+   position: relative;
+   left: -1000px;
+}
+
+.random-marquee-wrapper {
+   width: 1000px !important;
+   text-align: center;
+}
+
+.random-marquee-item {
+    
+}

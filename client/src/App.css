@@ -29,6 +29,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
 /* //:ital,wght@1,700 */
 
 html {
@@ -42,28 +43,10 @@ html {
   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  /* background-image: linear-gradient( to bottom , hsl(243, 100%, 23%) , #BA41A5); */
-  /* background-color: #BA41A5; */
   background-color: #CCCFC8;
-  /* rgb(239, 236, 236);  #CCCFC8 */
   font-size: calc(10px + 2vmin);
-  
   min-height: 100vh;
-  background-size: 100vw;
-  
- 
 }
 
 .App-link {
@@ -88,14 +71,7 @@ html {
   margin-top: 30vh;
   
 }
-.nav-stick {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  padding: 10px;
-  z-index: 1;
-}
+
 .nav-stick1 {
   overflow: hidden;
 }

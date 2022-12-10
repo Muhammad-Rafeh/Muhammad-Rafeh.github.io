@@ -1,8 +1,40 @@
 .projects-carousel-wrapper {
-    background-color: #B0A8B9;
-    /* box-shadow: inset 0px 3px 10px rgb(104, 102, 102); */
+    background-image: linear-gradient( #ADA8B6,silver, #ADA8B6);
+    margin: auto;
+    /* background-repeat: no-repeat; */
+}
+.projects-carousel-background {
+    /* background-image: url("../../images/projects-logo.png");
+    background-position-x: left;
+    background-position: left;
+    background-size: 100px;
+    background-repeat: no-repeat; */
+    position: relative;
+
+}
+.projects-carousel-heading-wrapper {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #573280;
+}
+.projects-carousel-heading {
+    font-family: 'Josefin Sans', cursive;    
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
     max-width: 1200px;
     margin: auto;
+}
+.projects-carousel-side-label-wrapper{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+.projects-carousel-side-label-text {
+    color: #8e7e92;
+    font-family: 'Cormorant';
+    font-size: 80px;
+    line-height: 90px;
 }
 .projects-carousel-cards-wrapper {
     border-radius: 50px;
@@ -14,7 +46,9 @@
     border-radius:  0 5px 5px 0;
 }
 .projects-carousel-cards-title-desc-wrapper {
+    word-wrap: break-word !important; 
     padding: 35px 20px 20px 35px ;
+    display: block;
 }
 .projects-carousel-cards-data-heading {
     font-family: 'Josefin Sans';
@@ -28,6 +62,9 @@
 .projects-carousel-cards-data-description {
     font-size: 20px;
     padding-left: 3px;
+    display: block;
+    word-wrap: break-word !important; 
+    overflow: hidden;
 }
 .projects-carousel-cards-data-redirect-line {
     height : 1px ;
@@ -88,17 +125,20 @@
     visibility: visible !important;
 }
 .projects-carousel-cards-foreground-icon {
-    height : 100px;
-    width: 100px;
+    height : 70px;
+    width: 70px;
     color: white;
     z-index: 1 !important;
+    margin-bottom: 40px;
 }
 .projects-carousel-cards-foreground-text {
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 80px;
+    font-family: 'Montserrat';
+    /* font-weight: 700; */
+    font-size: 40px;
     color: white;
     z-index: 1;
+    margin-bottom: 45px;
+
 }
 .projects-carousel-cards-image2 {
     background-image: url('../../images/chatApp.png');
@@ -131,7 +171,8 @@
    
 }
 .projects-carousel-cards-image-data{
-    opacity: 0;
+    opacity: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #4B4453)
 }
 .projects-carousel-cards-image-data-hover {
     background-color: rgba(0, 0, 0, 0.69);

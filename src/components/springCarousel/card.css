@@ -13,7 +13,15 @@
   
   .hero-profile-img {
     height: 70%;
+    width: 100%;
   }
+
+  .hero-profile-img-hover {
+    height: 80%;
+    width: 100%;
+    opacity: .8;
+  }
+  
   
   .hero-description-bk {
     /* background-image: linear-gradient(0deg , #3f5efb, #fc466b); */
@@ -56,7 +64,18 @@
     align-items: center;
     color: white;
   }
-  
+
+  .hover-text-2{
+    z-index: 300;
+    font-size: 30px;
+    opacity: 1 !important;
+    color: white;
+    font-weight: bolder;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
   .hero-logo img {
     margin-top: 3px;
     height: 110%;

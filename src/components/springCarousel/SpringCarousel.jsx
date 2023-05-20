@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSpringCarousel } from 'react-spring-carousel'
 import "./projectsCarousel.css";
 import Card from './Card';
@@ -6,7 +6,8 @@ import { Parallax } from 'react-parallax'
 import SpaceRoom from '../../images/carouselBgCrystals.jpg'
 
 export default function SpringCarousel() {
-
+  
+  const [isPaused, setIsPaused] = useState(false);
   const cardsData = [
     {
       id: 1,
@@ -85,20 +86,25 @@ export default function SpringCarousel() {
     items: cardsData.map((cardData) => ({
       id: cardsData?.id,
       renderItem: (
-        <Card cardData={cardData} />
+        <Card cardData={cardData} setIsPaused={setIsPaused} isHover={isPaused} />
       ),
     })),
   });
 
   useEffect(() => {
-    // const intervalId = setInterval(() => {
-    //   slideToNextItem();
-    // }, 2000);
-
-    // return () => {
-    //   clearInterval(intervalId);
-    // };
-  })
+    let intervalId;
+    if (!isPaused) {
+      intervalId = setInterval(() => {
+        slideToNextItem();
+      }, 2000);
+    } else {
+      clearInterval(intervalId);
+    }
+    
+    return () => {
+      clearInterval(intervalId);
+    };
+  },[isPaused]);
 
   return (
  <div className='spring-carousel-container'>

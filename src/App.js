@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React from 'react'
+import Nav from './components/navigation/Nav';
+import LandingPanel from './components/LandingPanel';
+import SpringCarousel from './components/springCarousel/SpringCarousel';
+// import Projects from './components/projects/Projects.js';
+import About from './components/About.js';
+import Contact from './components/contact/Contact';
+import Skill from './components/Skill.js';
 import './App.css';
+import Card from './components/springCarousel/Card';
+import ContactUs from './components/contactus/ContactUs';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return(
+    <>
+      <div className='App'>
+        <div className="">
+          <Nav />
+          <LandingPanel />
+          <SpringCarousel />
+          {/* <Projects /> */}
+          <About />
+          <Skill />
+          <ContactUs />
+          <Card />
+        </div>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

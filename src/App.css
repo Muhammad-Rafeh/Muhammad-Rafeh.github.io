@@ -1,27 +1,52 @@
+@font-face {
+  font-family : "round-edges";
+  src: local('round-edges'), url(./fonts/VarelaRound-Regular.woff) format('woff');
+}
+
+/* @font-face {
+  font-family : "Josefins-Sans";
+  src: local('round-edges'), url(./fonts/JosefinSans-Medium.woff) format('woff');
+} */
+
+@font-face {
+  font-family : "RalewayLightItalic";
+  src: local('round-edges'), url(./fonts/Raleway-LightItalic.woff) format('woff');
+}
+@font-face {
+  font-family : "RalewayLight";
+  src: local('round-edges'), url(./fonts/Raleway-Light.woff) format('woff');
+}
+
+@font-face{
+  font-family: "AzeretMono";
+  src : local('AzeretMono'), url(./fonts/AzeretMono-VariableFont_wght.woff) format('woff');
+}
+/* @font-face{
+  font-family: "Montserrat";
+  src : local('AzeretMono'), url(./fonts/Montserrat-Regular.woff) format('woff');
+} */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
+/* //:ital,wght@1,700 */
+
+html {
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+}
+
 .App {
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #CCCFC8;
   font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
 .App-link {
@@ -35,4 +60,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.img-entry {
+  position: absolute;
+  height: 200px;
+  margin-top: 30vh;
+  
+}
+
+.nav-stick1 {
+  overflow: hidden;
+}
+.below-progress-img {
+  width : 100%;
+  max-width: 1200px;
+  margin: auto;
 }

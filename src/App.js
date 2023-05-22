@@ -9,6 +9,7 @@ import Skill from './components/Skill.js';
 import './App.css';
 import Card from './components/springCarousel/Card';
 import ContactUs from './components/contactus/ContactUs';
+import ControlledCarousel from './components/bootstrapCarousel/ControlledCarousel'
 
 const App = () => {
   return(
@@ -18,11 +19,11 @@ const App = () => {
           <Nav />
           <LandingPanel />
           <SpringCarousel />
+          <ControlledCarousel />
           {/* <Projects /> */}
           <About />
           <Skill />
           <ContactUs />
-          <Card />
         </div>
       </div>
     </>

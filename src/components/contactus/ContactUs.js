@@ -30,7 +30,7 @@ const ContactUs = () => {
 
   return (
     <>
-    <div class="container">
+    <div class="ccontainer">
       <span class="big-circle"></span>
       <div class="form">
         <div class="contact-info">

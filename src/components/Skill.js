@@ -14,8 +14,8 @@ function Skill() {
                     <p className="skill-p">Skill Set</p>
                 </div>
             </Parallax>
-            <div className='d-flex pt-5 mt-5 justify-content-around align-items-center skill-content-container'>
-                <div className='d-flex skill-content'>
+            <div className='skill-content-container'>
+                <div className='skill-content'>
                     <div>
                         <Progress skill="React" percentage="95" num="1"/>
                         <Progress skill="Node" percentage="80" num="2"/>
@@ -25,10 +25,10 @@ function Skill() {
                         <Progress skill="Javscript" percentage="90" num="6" />
                     </div>
                     <div>
-                        <Progress skill="Stripe" percentage="75" num="7" />
-                        <Progress skill="BootStrap" percentage="90" num="8" />
+                        <Progress skill="RubyonRails" percentage="75" num="7" />
+                        <Progress skill="PostgreSql" percentage="90" num="8" />
                         <Progress skill="ChakraUI" percentage="75" num="12" />
-                        <Progress skill="Redux" percentage="90" num="9" />
+                        <Progress skill="Ruby" percentage="90" num="9" />
                         <Progress skill="HTML" percentage="90" num="10" />
                         <Progress skill="CSS" percentage="90" num="11" />
                     </div>
@@ -37,7 +37,6 @@ function Skill() {
                     <img src={Brain} className="brain-img" />
                 </div>
             </div>
-            <div className='py-5'></div>
         </div>
     )
 }

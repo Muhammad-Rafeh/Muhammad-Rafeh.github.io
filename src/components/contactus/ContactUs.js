@@ -27,10 +27,24 @@ const ContactUs = () => {
           };
         });
       }, []);
+        const onButtonClick = () => {
+          // using Java Script method to get PDF file
+          fetch("SamplePDF.pdf").then((response) => {
+            response.blob().then((blob) => {
+              // Creating new object of PDF file
+              const fileURL = window.URL.createObjectURL(blob);
+              // Setting various property values
+              let alink = document.createElement("a");
+              alink.href = fileURL;
+              alink.download = "MuhammadRafehResume.pdf";
+              alink.click();
+            });
+          });
+        };
 
   return (
     <>
-    <div class="ccontainer">
+    <div class="ccontainer" id="contact-section">
       <span class="big-circle"></span>
       <div class="form">
         <div class="contact-info">
@@ -56,19 +70,18 @@ const ContactUs = () => {
           </div>
 
           <div class="social-media">
-            <p>Connect with us :</p>
             <div class="social-icons">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
+              <a
+                href="https://linkedin.com/in/muhammad-rafeh-49873a218"
+                target="_blank"
+              >
                 <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/Muhammad-Rafeh" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" onClick={onButtonClick}>
+                <i class="fa fa-file"></i>
               </a>
             </div>
           </div>

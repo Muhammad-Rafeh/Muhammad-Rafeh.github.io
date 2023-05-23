@@ -93,9 +93,40 @@
 .lp-mypngimg {
     
     height : 450px;
-    /* padding-top:    75px; */
+    padding-top:    75px;
 }
-
+.lp-social-media {
+    padding: 2rem 0 0 0;
+  }
+  
+  .lp-social-media p {
+    color: #333;
+  }
+  
+  .lp-social-icons {
+    display: flex;
+    margin-top: 0.1rem;
+  }
+  
+  .lp-social-icons a {
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#713E8D,#713E8D);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lp-social-icons i {
+    font-size: 20px;
+  }
+  .social-icons a:hover {
+    transform: scale(1.05);
+  }
 @media screen and (max-width: 992px) {
     .lp-global-container {
         height: 470px;

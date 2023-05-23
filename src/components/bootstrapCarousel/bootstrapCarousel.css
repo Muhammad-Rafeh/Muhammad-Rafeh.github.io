@@ -1,13 +1,8 @@
 .bootstrap-carousel-container {
     /* background-color: #B0A8B9; */
-    background-image: url('../../images/carouselBgCrystals.jpg');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+   /* Resize the background image to cover the entire container */
     padding-bottom: 10vh;
     padding-top: 10vh;
-    height: 100vh;
-    overflow: hidden;
 }
 .video-wrapper {
     /* height: 100vh; */
@@ -15,7 +10,51 @@
     /* max-height: 90vh; */
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 20px;
     width: 70%;
+}
+.container {
+    
+   padding-bottom: 100px;
+}
+
+.default-text{
+    color:white;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.mainbody {
+    margin-top: 0;
+    min-height: 150px;
+    max-height: 600px;
+    overflow: hidden;
+    background-color: black;
+}
+.header {
+    height: 40px;
+    border-bottom: 1px solid #EEE;
+    background-color:#573280;
+    width: 100%;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: #573280;
+    border-top: 1px solid #DDD;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .video {

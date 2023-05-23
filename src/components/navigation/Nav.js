@@ -31,10 +31,10 @@ export default function Nav() {
       <div className="nav-wrapper-fixed">
         <div className="nav-wrapper-custom" id="navbarCustom" >
           <h2 className="logo-h2" ><span>WEB </span> Developer.</h2>
-          <a className="nav-options">About</a>
-          <a className="nav-options">Contact</a>
-          <a className="nav-options">Skills</a>
-          <a className="nav-options">Projects</a>
+          <a className="nav-options" onClick={() => { document.getElementById("about-section").scrollIntoView() }}>About</a>
+          <a className="nav-options" onClick={() => { document.getElementById("contact-section").scrollIntoView() }}>Contact</a>
+          <a className="nav-options" onClick={() => { document.getElementById("skills-section").scrollIntoView() }}>Skills</a>
+          <a className="nav-options" onClick={() => { document.getElementById("projects-section").scrollIntoView() }}>Projects</a>
 
           
           <button className='nav-icon' onClick={handleClick}>

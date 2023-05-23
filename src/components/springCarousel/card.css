@@ -83,12 +83,13 @@
   
   .hero-description {
     position: absolute;
-    color: #fff;
-    font-weight: 500;
+    color: white;
+    font-weight: 600;
     font-size: 20px;
     left: 130px;
-    bottom: 26%;
+    bottom: 22%;
     word-break: keep-all;
+    margin-top: 80px;
   }
   
   .hero-btn {
@@ -96,7 +97,7 @@
     color: #fff;
     right: 30px;
     bottom: 10%;
-    padding: 5px 10px;
+    padding: 4px 8px;
     border: 1px solid #fff;
     font-size: 20px;
 

@@ -26,11 +26,6 @@
     position: relative;
 
 }
-.projects-carousel-heading-wrapper {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #573280;
-}
 .projects-carousel-heading {
     font-family: 'Josefin Sans', cursive;    
     font-weight: 700;

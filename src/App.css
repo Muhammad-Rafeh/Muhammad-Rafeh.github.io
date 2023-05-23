@@ -68,6 +68,23 @@ html {
   margin-top: 30vh;
   
 }
+.projects-carousel-heading-wrapper {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #573280;
+}
+.parent{
+  background-color: black; 
+  box-shadow: inset 0 3px 10px #222a36;
+}
+.projects-container{
+  background-image: url('../public/Projects.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  mix-blend-mode:normal;
+  box-shadow: inset 0 30px 100px #222a36;
+}
 
 .nav-stick1 {
   overflow: hidden;

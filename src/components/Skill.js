@@ -8,7 +8,7 @@ import Brain from '../images/brain.png'
 
 function Skill() {
     return (
-        <div className="skill-container">
+        <div className="skill-container"  id="skills-section">
             <Parallax blur={0} bgImage={Lion} bgImageAlt="the cat" strength={300}>
                 <div className="skill-text-wrapper">
                     <p className="skill-p">Skill Set</p>

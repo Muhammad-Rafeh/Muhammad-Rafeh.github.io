@@ -22,9 +22,9 @@
   font-display: swap;
 }
 .logo-h2 span {
-  font-family: "RalewayBold";
+  font-family: "Playfair";
   
-    color :#23022E;
+    color :black;
     /* background: -webkit-linear-gradient(#C228F6, #23022E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -32,8 +32,8 @@
   }
   .logo-h2 {
     width: 30vw;;
-    color: #573280;
-    font-family: 'RalewayBold';
+    color: black;
+    font-family: 'Playfair';
     font-size: 27px;
     max-width: 520px;
     display: flex;
@@ -89,7 +89,7 @@
   }
   
   .nav-options {
-    color: rgb(255, 255, 255);
+    color: black;
     /* padding-top: 5px; */
     margin-top: -5px;
     font-family: 'Montserrat', sans-serif;

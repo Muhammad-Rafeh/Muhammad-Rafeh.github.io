@@ -1,0 +1,110 @@
+.landing-header-background {
+    background-color: white;
+}
+.landing-header-container{
+    background-color: white;
+    height: 60vw;
+    max-height: 100vh;
+    /* max-height: 90vh; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+}
+
+.landing-header-text-wrapper {
+    position: absolute;
+    /* background-color: red; */
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.landing-header-text-wrapper h5 {
+    font-family: Playfair;
+    font-size: 7.2vw;
+    letter-spacing: -3px;
+
+}
+.landing-header-text-line {
+    margin-top: -1vw;
+    background-color: rgb(222, 58, 255);
+    height: 0.2vw;
+    width: 10vw;
+    display: block;
+    align-self: flex-start;
+}
+
+.landing-header-text-p {
+    font-size: 1.3vw;
+    font-family: Poppins;
+    display: block;
+    align-self: flex-start;
+    margin-top: 1.5vw;
+    color: rgb(87, 82, 82);
+}
+.landing-header-button-wrapper {
+    align-self: flex-start;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.landing-header-button-slogan{
+    font-size: 1.5vw;
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-header-button-slogan div{
+    height: 0.2vw;
+    background-color: black;
+    width: 8vw;
+    display: inline-block;
+    margin-left: 1vw;
+    opacity: 0.3;
+
+}
+
+.landing-header-button{
+    background-color: rgb(255, 33, 255);
+    font-family: Poppins;
+    font-size: 1vw;
+    color: #FFE8FF;
+    font-weight: 500;
+    border: none;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    letter-spacing: 3px;
+}
+
+.landing-header-img-wrapper {
+    background-color: rgb(255, 33, 255);
+    overflow: hidden;
+    height: 55vw;
+    width: 55vw;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+
+.landing-header-img {
+    /* height: 485px; */
+    height: 50vw;
+    max-height: 85vh;
+    /* width: 500px; */
+}

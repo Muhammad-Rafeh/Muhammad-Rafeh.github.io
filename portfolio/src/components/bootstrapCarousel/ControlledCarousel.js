@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./bootstrapCarousel.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function ControlledCarousel({ selectedVideo }) {
   const [myVideo, setMyVideo] = useState("");

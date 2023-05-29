@@ -10,6 +10,8 @@ import "./App.css";
 import Card from "./components/springCarousel/Card";
 import ContactUs from "./components/contactus/ContactUs";
 import ControlledCarousel from "./components/bootstrapCarousel/ControlledCarousel";
+import Header from "./components/Header";
+import Project from "./components/projects/Project";
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState("");
@@ -23,8 +25,10 @@ const App = () => {
       <div className="App">
         <div className="">
           <Nav />
-          <LandingPanel />
-          <div className="mt-1 projects-carousel-heading-wrapper">
+          <Header />
+          <Project />
+          {/* <LandingPanel /> */}
+          {/* <div className="mt-1 projects-carousel-heading-wrapper">
             <h1 className="ps-5 projects-carousel-heading d-flex justify-center align-center items-center text-start">
               PROJECTS
             </h1>
@@ -34,7 +38,7 @@ const App = () => {
               <SpringCarousel handleSelectedVideo={handleSelectedVideo} />
               <ControlledCarousel selectedVideo={selectedVideo} />
             </div>
-          </div>
+          </div> */}
           {/* <Projects /> */}
           <About />
           <Skill />

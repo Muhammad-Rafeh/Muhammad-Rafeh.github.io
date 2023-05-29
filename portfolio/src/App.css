@@ -30,11 +30,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@900&display=swap');
+
 /* //:ital,wght@1,700 */
 
 html {
   overflow: -moz-scrollbars-vertical; 
   overflow-y: scroll;
+  background-color: white;
 }
 
 .App {
@@ -44,7 +47,7 @@ html {
 }
 
 .App-header {
-  background-color: #CCCFC8;
+  background-color: #ffffff;
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
 }

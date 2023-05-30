@@ -13,7 +13,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/ecommerce.png",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(0deg , #3f5efb, #fc466b)",
+      cardColor: "linear-gradient(0deg , #FF5D00, #FF5D00)",
       icon: "BsShopWindow",
       video: "ecommerceVideo1.mp4",
     },
@@ -23,7 +23,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/chatApp.png",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(0deg , #5E9F53, #3AFF00)",
+      cardColor: "linear-gradient(0deg , #47817E, #47817E)",
       icon: "BsShopWindow",
       video: "chatAppVideo.mp4",
     },
@@ -33,7 +33,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/weatherApp.png",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(-20deg , #FFC500, #A23700)",
+      cardColor: "linear-gradient(-20deg , #B88F00, #B88F00)",
       icon: "BsShopWindow",
       video: "weather.mp4",
     },
@@ -43,7 +43,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/sparetoolz.png",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(-20deg , #D9F5FF, #009DFF)",
+      cardColor: "linear-gradient(-20deg , #00B6E0, #00B6E0)",
       icon: "BsShopWindow",
       video: "sparetoolzClone.mp4",
     },
@@ -53,7 +53,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/augersoft.jpeg",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(-20deg , #F7F1FF, #BA00FF)",
+      cardColor: "linear-gradient(-20deg , #623860, #623860)",
       icon: "BsShopWindow",
       video: "augersoft.mp4",
     },
@@ -63,7 +63,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/tapp.jpeg",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(-20deg , #007F0A, #00FFBA)",
+      cardColor: "linear-gradient(-20deg , #5ABAB7, #5ABAB7)",
       icon: "BsShopWindow",
       video: "tapp.mp4",
     },
@@ -73,7 +73,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/privateClientPortal.png",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(-20deg , #10007F, #9200C7)",
+      cardColor: "linear-gradient(-20deg , #6A0076, #6A0076)",
       icon: "BsShopWindow",
       video: "ClientUtilityPortal.mp4",
     },
@@ -83,7 +83,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
       projectImage: "/spy.jpg",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",
-      cardColor: "linear-gradient(-20deg , #215E72, #000000)",
+      cardColor: "linear-gradient(-20deg , black, black)",
       icon: "BsShopWindow",
       video: "spichaser.mp4",
     },

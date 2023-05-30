@@ -1,12 +1,11 @@
 .spring-carousel-container {
     /* background-image: url("../../images/spaceRoom.png"); */
     overflow: hidden;
+    padding-bottom: 60px;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
 }
 .spring-carousel-cards-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
 
     display: flex;
     justify-content:center;

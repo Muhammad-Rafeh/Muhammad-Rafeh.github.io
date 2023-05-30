@@ -2,6 +2,7 @@ import React from "react";
 import "./project.css";
 import { Parallax } from 'react-parallax'
 import Lion from '../../images/pinkFlowers.jpg'
+import SpringCarousel from "../springCarousel/SpringCarousel";
 
 const Project = () => {
   return (
@@ -12,176 +13,21 @@ const Project = () => {
         </div>
         <div className="project-scroll-number">01</div>
       </div>
+      <div className="padding-test">
       <div className="project-heading-wrapper"></div>
       <Parallax blur={0} bgImage={Lion} bgImageAlt="the cat" strength={300}>
        <div className="project-heading">PROJECTS</div>
-
+        
         </Parallax>
-
-      <div className="project-items-wrapper">
-        <ProjectItems />
-      </div>
+        </div>
     </div>
   );
 };
 
 const ProjectItems = () => {
   return (
-    <div className="grid">
-      <ul id="hexGrid">
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/spy.jpg)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/augersoft.jpeg)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/tapp.jpeg)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/privateClientPortal.png)",
-                }}
-              />
-              {/* <h1 id="demo1">This is a title</h1> */}
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/sparetoolz.png)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/weatherApp.png)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/ecommerce.png)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(/chatApp.png)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
-        <li className="hex">
-          <div className="hexIn">
-            <a className="hexLink" href="#">
-              <div
-                className="img"
-                style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1423145369430-a9ea0de096cd?crop=entropy&fit=crop&fm=jpg&h=1375&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1725)",
-                }}
-              />
-              <h1 id="demo1">This is a title</h1>
-              <p id="demo2">
-                Some sample text about the article this hexagon leads to
-              </p>
-            </a>
-          </div>
-        </li>
+    <div>
+        
         {/* <li className="hex">
           <div className="hexIn">
             <a className="hexLink" href="#">
@@ -267,7 +113,7 @@ const ProjectItems = () => {
             </a>
           </div>
         </li> */}
-      </ul>
+  
     </div>
   );
 };

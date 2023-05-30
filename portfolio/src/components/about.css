@@ -9,6 +9,7 @@
     max-width: 1200px;
     margin: auto;
     display: block;
+    background-position: left;
 }
 
 .about-heading{
@@ -16,7 +17,7 @@
     font-weight: 700;
     font-size: 150px;
     color: rgb(209, 202, 202);
-    padding-top: 20px;
+    padding-top:100px;
     
 }
 

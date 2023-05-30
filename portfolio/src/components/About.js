@@ -9,7 +9,7 @@ function About() {
                 <div className="about-main-grid">
                     <div className="about-p">
                         <div className="about-first-para">
-                            <p> Hi, I’m Rafeh a MERN stack developer,</p>
+                            <p> Hi, I’m Rafeh a MERN/ROR stack developer,</p>
                             <p>and I have been building for the web for a period of two years now.</p>
                             <br/>
                             <p>The illimitable learning in the Discipline of Computers thrilled me into becoming what I’m today,</p>

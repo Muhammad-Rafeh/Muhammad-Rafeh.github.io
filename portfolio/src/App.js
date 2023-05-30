@@ -27,6 +27,8 @@ const App = () => {
           <Nav />
           <Header />
           <Project />
+          <SpringCarousel handleSelectedVideo={handleSelectedVideo} />
+          <ControlledCarousel selectedVideo={selectedVideo} />
           {/* <LandingPanel /> */}
           {/* <div className="mt-1 projects-carousel-heading-wrapper">
             <h1 className="ps-5 projects-carousel-heading d-flex justify-center align-center items-center text-start">

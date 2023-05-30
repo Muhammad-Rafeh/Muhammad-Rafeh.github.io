@@ -8,7 +8,7 @@ function ControlledCarousel({ selectedVideo }) {
 
   useEffect(() => {
     const newVideo = (
-      <video key={selectedVideo} width="100%" height="600px" controls loop>
+      <video key={selectedVideo} width="100%" height="600px" controls autoPlay={true} loop>
         <source src={"/" + selectedVideo} />
       </video>
     );

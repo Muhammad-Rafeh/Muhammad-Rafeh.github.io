@@ -23,6 +23,25 @@ const Header = () => {
             <div className="landing-header-img-wrapper">
               <img className="landing-header-img" src="/header-image.png" />
             </div>
+            
+            <div className="link-container">
+              <a href="https://linkedin.com/in/muhammad-rafeh-49873a218"
+                target="_blank">
+              <div className="link-boxes">
+               LINKEDIN
+              </div>
+              </a>
+              <a href="https://github.com/Muhammad-Rafeh" target="_blank">
+              <div className="link-boxes">
+               GITHUB
+              </div>
+              </a>
+              <a href="https://docs.google.com/document/d/1lrvcoZbtZblgUX7hRfQEgkHXdYLKlXZto2Nfc9jpoJA/edit?pli=1" target="_blank">
+              <div className="link-boxes">
+               RESUME
+              </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

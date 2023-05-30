@@ -78,10 +78,12 @@ form {
   font-size: 1.5rem;
   line-height: 1;
   margin-bottom: 0.7rem;
+  text-align: start !important;
 }
 
 .a1{
     color:#C45DDB !important;
+    text-align: start !important;
 }
 
 .input-container {
@@ -207,26 +209,32 @@ textarea.input {
 .text {
   color: #333;
   margin: 1.5rem 0 2rem 0;
+  text-align: start !important;
 }
 
 .information {
   display: flex;
   color: #555;
-  margin: 0.7rem 0;
+  
   align-items: center;
   font-size: 0.95rem;
 }
+.asas{
+  margin-top: 10px;
+}
 
 .info .information:first-child img {
-    width: 15px;
+    width: 19px;
   }
 
   .info .information:nth-child(2) img {
-    width: 15px;
+    width: 19px;
   }
 
   .info .information:nth-child(3) img {
-    width: 23px;
+    width: 25px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
 .icon {
@@ -263,6 +271,24 @@ textarea.input {
   transform: scale(1.05);
 }
 
+.btn-class{
+  
+  background-color: white;
+ 
+  border-radius: 10px;
+  border: 2px soild #C45DDB;
+}
+.btn-class:hover{
+  background-color: #C39BDE;
+  color: #fff;
+}
+
+.btn-div{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
 .contact-info:before {
   content: "";
   position: absolute;
@@ -337,6 +363,7 @@ textarea.input {
 
   .text {
     margin: 1rem 0 1.5rem 0;
+    text-align: justify;
   }
 
   .social-media {

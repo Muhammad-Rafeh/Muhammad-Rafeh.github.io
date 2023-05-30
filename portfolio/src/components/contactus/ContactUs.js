@@ -50,22 +50,21 @@ const ContactUs = () => {
         <div class="contact-info">
         <h3 class="title a1">Let's get in touch</h3>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+          If you have any inquiries or require further information, please don't hesitate to get in touch with us. We value your feedback and are here to assist you. 
           </p>
 
           <div class="info">
             <div class="information">
               <img src="/location.png" class="icon" alt="" />
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
+              <p class="asas">Lahore, Pakistan</p>
             </div>
             <div class="information">
               <img src="/email.png" class="icon" alt="" />
-              <p>lorem@ipsum.com</p>
+              <p class="asas">m.rafeh77@gmial.com</p>
             </div>
             <div class="information">
               <img src="/download.png" class="icon" alt="" />
-              <p>123-456-789</p>
+              <p class="asas">0309-6070730</p>
             </div>
           </div>
 
@@ -101,7 +100,11 @@ const ContactUs = () => {
               <label for="">Message</label>
               <span>Message</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            <div className='btn-div'>
+            <div>
+            <input className='btn-class' type="submit" value="Send" class="btn" />
+            </div>
+            </div>
           </form>
         </div>
       </div>

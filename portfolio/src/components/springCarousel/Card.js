@@ -19,8 +19,9 @@ const Card = ({ cardData, setIsPaused, handleSelectedVideo }) => {
       />
 
       <motion.button
-        whileHover={{ scale: 1.5 }}
+        whileHover={{ scale: 1.12 }}
         whileTap={{ scale: 0.9 }}
+        transition={{ duration: .4, type: "tween" }}
         style={{ background: "none", border: "none" }}
       >
         <div

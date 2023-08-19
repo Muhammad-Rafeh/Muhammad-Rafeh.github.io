@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background: white;
+    background: #DEE4E7;
 }
 
 .project-container{
@@ -49,14 +49,16 @@ body {
 }
 .project-heading{
     font-family: Playfair;
-    color: black;
+    color: #374745;
     border: 2px;
-    font-size: 15vw;
-    background-color: white;
-    /* backdrop-filter: white; */
-    mix-blend-mode: screen;
+    font-size: 13vw;
+    /* background-color: #50424F; */
+    /* mix-blend-mode: multiply; */
 }
-
+.project-heading span{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #374745;}
 .project-items-wrapper{
     /* width: 50%; */
     margin-top: 50px;
@@ -271,8 +273,12 @@ transition: 0.8s;
     #hexGrid {
         font-size: 8px;
     }
-  
+}
 
-  
- 
+
+@media only screen and (max-width: 775px) {
+  .project-scroll-section{
+      width: 80vw;
+      overflow: hidden;
+  }
 }

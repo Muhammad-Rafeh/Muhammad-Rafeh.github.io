@@ -32,9 +32,10 @@
   }
   .logo-h2 {
     width: 30vw;;
-    color: black;
+    color: #2a3736;
+    opacity: 1;
     font-family: 'Playfair';
-    font-size: 27px;
+    font-size: 25px;
     max-width: 520px;
     display: flex;
   }
@@ -56,25 +57,22 @@
     z-index: 1;
   }
   .nav-wrapper-custom {
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 12px;
     font-family: 'round-edges';
     font-weight: 900;
     width: 100%; 
     display: flex;
     flex-direction: row;
     opacity: 0.8;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     top:0;
 
     transition: all .2s ease-in;
-    margin-right: auto;
-    
-    
-   
+    padding-right: 100px;
+    padding-left: 5%;
   }
   .hr {
     background-color: rgb(72, 71, 71);
@@ -83,18 +81,17 @@
   }
   .scrolled{
     
-    background-color: #ada8b6;
-    box-shadow: 0px 3px 10px rgb(44, 44, 44);
+    background-color: #DEE4E7;
+    box-shadow: 0px 1px 10px rgb(174, 174, 174);
     transition: all .2s ease-in;
   }
   
   .nav-options {
-    color: black;
     /* padding-top: 5px; */
     margin-top: -5px;
-    font-family: 'Montserrat', sans-serif;
-   font-weight: 100;
-    font-size: 15px;
+    font-family: "Josefin Sans";
+   font-size:larger;
+   font-weight: 500;
     text-decoration: none;
   }
 

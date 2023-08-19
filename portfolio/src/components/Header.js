@@ -15,32 +15,36 @@ const Header = () => {
               Hey, I'm a ... Full Stack Webdeveloper.
             </div>
             <div className="landing-header-button-wrapper">
-            <button className="landing-header-button">EXPLORE</button>
-            <div className="landing-header-button-slogan">Building Dreams <div></div></div>
+              <button className="landing-header-button">EXPLORE</button>
+              <div className="landing-header-button-slogan">
+                Building Dreams <div></div>
+              </div>
             </div>
           </div>
-          <div className="landing-header-img-section">
-            <div className="landing-header-img-wrapper">
-              <img className="landing-header-img" src="/header-image.png" />
-            </div>
-            
-            <div className="link-container">
-              <a href="https://linkedin.com/in/muhammad-rafeh-49873a218"
-                target="_blank">
-              <div className="link-boxes">
-               LINKEDIN
+          <div className="landing-header-img-section-and-top-space-wrapper">
+            <div className="landing-header-img-top-space"></div>
+            <div className="landing-header-img-section">
+              <div className="landing-header-img-wrapper">
+                <img className="landing-header-img" src="/header-image2.webp" />
               </div>
-              </a>
-              <a href="https://github.com/Muhammad-Rafeh" target="_blank">
-              <div className="link-boxes">
-               GITHUB
+
+              <div className="link-container">
+                <a
+                  href="https://www.linkedin.com/in/mrafeh/"
+                  target="_blank"
+                >
+                  <div className="link-boxes">LINKEDIN</div>
+                </a>
+                <a href="https://github.com/Muhammad-Rafeh" target="_blank">
+                  <div className="link-boxes">GITHUB</div>
+                </a>
+                <a
+                  href="https://docs.google.com/document/d/1lrvcoZbtZblgUX7hRfQEgkHXdYLKlXZto2Nfc9jpoJA/edit?pli=1"
+                  target="_blank"
+                >
+                  <div className="link-boxes">RESUME</div>
+                </a>
               </div>
-              </a>
-              <a href="https://docs.google.com/document/d/1lrvcoZbtZblgUX7hRfQEgkHXdYLKlXZto2Nfc9jpoJA/edit?pli=1" target="_blank">
-              <div className="link-boxes">
-               RESUME
-              </div>
-              </a>
             </div>
           </div>
         </div>

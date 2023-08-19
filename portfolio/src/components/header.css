@@ -1,8 +1,8 @@
 .landing-header-background {
-    background-color: white;
+    background-color: #DEE4E7;
 }
 .landing-header-container{
-    background-color: white;
+    background-color: #DEE4E7;
     height: 60vw;
     max-height: 100vh;
     /* max-height: 90vh; */
@@ -21,15 +21,19 @@
   align-items: center;
   /* width: 40px; */
   overflow: hidden;
+  /* color: #241722; */
+  text-decoration: none;
   color: black;
   text-decoration: none;
 }
 
 .link-boxes{
     transform:rotate(90deg);
-     font-size:larger;
+     font-size:13px;
      font-weight: 500;
-     font-family: Poppins;
+     font-family: "Josefin Sans";
+     color: #374745;
+
 }
 
 
@@ -41,11 +45,11 @@ a{
 .landing-header-text-wrapper {
     position: absolute;
     /* background-color: red; */
-   
+    color: #374745;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     /* background-color: red; */
 }
@@ -53,8 +57,8 @@ a{
     font-family: Playfair;
     font-size: 7.2vw;
     letter-spacing: -3px;
-
 }
+
 .landing-header-text-line {
     margin-top: -1vw;
     background-color: rgb(222, 58, 255);
@@ -65,12 +69,12 @@ a{
 }
 
 .landing-header-text-p {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-family: Poppins;
     display: block;
     align-self: flex-start;
     margin-top: 1.5vw;
-    color: rgb(87, 82, 82);
+    color: #374745;
 }
 .landing-header-button-wrapper {
     align-self: flex-start;
@@ -87,6 +91,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #374745;
 }
 
 .landing-header-button-slogan div{
@@ -111,22 +116,34 @@ a{
     padding-right: 3vw;
     letter-spacing: 3px;
 }
+.landing-header-img-section-and-top-space-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.landing-header-img-top-space{
+    height: 75px;
+    width: 100%;
+}
 
 .landing-header-img-section{
   display: flex;
+  height: 100%;
 }
 
 .landing-header-img-wrapper {
-    background-color: rgb(255, 33, 255);
-    overflow: hidden;
-    height: 55vw;
+    background: rgb(255,33,242);
+    background: linear-gradient(43deg, rgba(255,33,242,1) 60%, rgb(253, 128, 255) 100%);
+    box-shadow: 10px 0px 30px rgb(255, 150, 248);
+    height: 100%;
     width: 55vw;
-    max-height: 90vh;
+    /* max-height: 90vh; */
     display: flex;
     justify-content: center;
     align-items: end;
     border-top-left-radius: 2vh;
     border-top-right-radius: 2vh;
+    overflow: hidden;
 }
 
 .landing-header-img {
@@ -134,4 +151,46 @@ a{
     height: 50vw;
     max-height: 85vh;
     /* width: 500px; */
+}
+
+@media only screen and (max-width: 775px) {
+    .landing-header-container{
+        flex-direction: column;
+    }
+    
+    .landing-header-text-wrapper {
+        align-self: flex-start;
+        justify-self: flex-start;
+        margin-top: -20vh;
+    }
+
+    .landing-header-container{
+       height: 100vh;
+       max-height: 850px; 
+    }
+
+    .landing-header-text-wrapper h5 {
+        font-size: 45px;
+        letter-spacing: 0px;
+    }
+    .landing-header-text-p {
+        font-size: 12px;
+    }
+    .landing-header-img-wrapper {
+        width: 70vw;
+    }
+
+    .landing-header-img {
+        margin-bottom: 75px;
+        min-height: 300px;
+    }
+    .landing-header-button-slogan{
+        font-size: 15px;
+    }
+    .landing-header-button{
+        font-size: 10px;
+        border: 0.5px solid black;
+        margin-right: 10px;
+    }
+
 }

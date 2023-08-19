@@ -15,10 +15,10 @@ const Project = () => {
       </div>
       <div className="padding-test">
       <div className="project-heading-wrapper"></div>
-      <Parallax blur={0} bgImage={Lion} bgImageAlt="the cat" strength={300}>
-       <div className="project-heading">PROJECTS</div>
+      {/* <Parallax blur={0} bgImage={Lion} bgImageAlt="the cat" strength={300}> */}
+       <div className="project-heading">PR<span>OJ</span>EC<span>TS</span></div>
         
-        </Parallax>
+        {/* </Parallax> */}
         </div>
     </div>
   );

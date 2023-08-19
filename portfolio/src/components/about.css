@@ -1,10 +1,10 @@
 .about-container-global {
-    background-image: linear-gradient( to bottom , #2c2c2c , #4b1b5e);
+    background-image: linear-gradient( to bottom , #2c2c2c , #750075);
     height: 1150px;
 }
 
 .about-container {
-    background: url('../images/manFace.png') left top no-repeat,linear-gradient( to bottom , #2c2c2c , #4b1b5e);
+    background: url('../images/manFace.png') left top no-repeat,linear-gradient( to bottom , #2c2c2c , #750075);
     background-size: 365px;
     max-width: 1200px;
     margin: auto;

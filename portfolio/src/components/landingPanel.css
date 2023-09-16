@@ -1,0 +1,196 @@
+*{
+    padding : 0;
+    margin  :0;
+}
+/* @font-face{
+    font-family: "Raleway";
+    src : local('Raleway'), url(../fonts/Raleway-VariableFont_wght.ttf) format('ttf');
+  } */
+  @font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Thin.woff2) format('woff2'),
+        url(../fonts/Raleway-Thin.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RalewayItalic';
+    src: url(../fonts/Raleway-ThinItalic.woff2) format('woff2'),
+        url(../fonts/Raleway-ThinItalic.woff) format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'RalewayBold';
+    src: url(../fonts/Raleway-Bold.woff2) format('woff2'),
+        url(../fonts/Raleway-Bold.woff) format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+.lp-global-container {
+    background-image: url("../images/bgImgLandingPanelPlane.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 515px;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.lp-container {
+    /* background-color: #ADA8B6; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19); */
+    max-width: 1200px;
+    margin-left : auto;
+    margin-right : auto;
+    height: 100%;
+
+    
+}
+
+.lp-datawrapper {
+    color: #23022E;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 47px;
+    text-align: left;
+
+    /* background: -webkit-linear-gradient(#23022E, #5900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+    
+}
+.lp-name {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 70px;
+    background: -webkit-linear-gradient(#23022E, #9002c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color : transparent ;
+}
+.lp-data {
+    padding-left: 5px;
+}
+.lp-mypngimg-wrapper {
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; */
+    padding-right: 40px;
+    align-self: flex-end;
+}
+.lp-mypngimg {
+    
+    height : 450px;
+    padding-top:    75px;
+}
+.lp-social-media {
+    padding: 2rem 0 0 0;
+  }
+  
+  .lp-social-media p {
+    color: #333;
+  }
+  
+  .lp-social-icons {
+    display: flex;
+    margin-top: 0.1rem;
+  }
+  
+  .lp-social-icons a {
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#713E8D,#713E8D);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lp-social-icons i {
+    font-size: 20px;
+  }
+  .social-icons a:hover {
+    transform: scale(1.05);
+  }
+@media screen and (max-width: 992px) {
+    .lp-global-container {
+        height: 470px;
+    }
+    .lp-container {
+        height: 470px;
+    }
+    .lp-mypngimg {
+        height : 400px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .lp-global-container {
+        height: 450px;
+    }
+    .lp-container {
+        height: 450px;
+    }
+    .lp-mypngimg {
+        height : 358px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .lp-global-container {
+        height: 400px;
+    }
+    .lp-container {
+        height: 400px;
+    }
+    .lp-mypngimg {
+        height : 329px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .lp-global-container {
+        height: fit-content;
+    }
+   .lp-container {
+       flex-direction: column;
+       height: fit-content;
+       justify-content: center;
+       align-items: start;
+   }
+   .lp-mypngimg-wrapper{
+       align-items: center;
+       justify-content: center;
+       align-self: center;
+       padding-top: 80px;
+   }
+   .lp-mypngimg {
+       height : 50vw;
+   }
+   .lp-datawrapper{
+       padding-top: 100px;
+   }
+   .lp-datawrapper {
+       padding-left: 20px;
+   }
+}
+@media screen and (max-width: 550px) {
+    .lp-name {
+        font-size: 2.8rem;
+    }
+    .lp-data {
+        font-size: 18px;
+    }
+}

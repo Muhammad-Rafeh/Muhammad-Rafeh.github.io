@@ -1,8 +1,8 @@
 .skill-container {
-    background-image: linear-gradient( #008F7A, #008E9B, #0089BA, #0081CF, #2C73D2, #8A89D0);
+    background-image: linear-gradient( black  , #514573, #514573);
 }
 .skill-content-container {
-    background-image: url('../images/paintSplatter.png');
+    background-image: url('../../public/star.png');
     background-size: 400px;
     display: flex;
     padding-top: 20px;

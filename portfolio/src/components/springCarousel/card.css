@@ -7,7 +7,7 @@
     height: 300px;
     border-radius: 5px;
     overflow:hidden;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 50px 50px 40px rgba(0, 0, 0, 0.3);
     margin: 20px;
   }
   
@@ -34,13 +34,43 @@
     transform: skew(19deg, -9deg);
   }
 
+  /* Add these CSS classes to your stylesheet */
+.hero-profile-img {
+  transition: filter 0.3s;
+}
+
+.hero-profile-img-hover {
+  filter: blur(8px); /* Apply a blur effect when hovered */
+  transition: filter 0.3s;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+
   /*   
   .second .hero-description-bk {
     background-image: linear-gradient(-20deg , #bb7413, #e7d25c)
   } */
 
   .first {
-    background-image: linear-gradient(0deg , #3f5efb, #fc466b);
+  background-color: #374745 ;
     /* transform: skew(19deg, -9deg); */
   }
 
@@ -90,10 +120,12 @@
   .hero-description {
     position: absolute;
     color: white;
+    text-align: center;
     font-weight: 600;
     font-size: 20px;
     left: 130px;
-    bottom: 22%;
+    width: 150px;
+    top: 105px;
     word-break: keep-all;
     margin-top: 80px;
   }

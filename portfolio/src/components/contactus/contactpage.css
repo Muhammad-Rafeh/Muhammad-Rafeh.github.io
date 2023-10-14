@@ -11,20 +11,22 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
-
+.main-container{
+  
+  background-image: linear-gradient( #514573, #514573, #514573 ,#514573,black );
+}
 .ccontainer {
   position: relative;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #fafafa;
   overflow: hidden;
   display: flex;
   align-items: center;
+  background-color: transparent;
   justify-content: center;
-  background-image: url("/public/contactUs.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("/public/star.png");
+  background-size: 400px;
 }
 
 .form {
@@ -218,22 +220,24 @@ textarea.input {
   
   align-items: center;
   font-size: 0.95rem;
-}
-.asas{
   margin-top: 10px;
 }
+/* .asas{
+  margin-top: 15px;
+} */
 
 .info .information:first-child img {
-    width: 19px;
+    width: 15px;
   }
 
   .info .information:nth-child(2) img {
     width: 19px;
+    margin-left: -5px;
   }
 
   .info .information:nth-child(3) img {
-    width: 25px;
-    margin-left: 1px;
+    width: 30px;
+    margin-left: -5px;
     margin-right: 1px;
   }
 

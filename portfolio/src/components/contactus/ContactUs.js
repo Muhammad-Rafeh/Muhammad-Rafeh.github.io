@@ -44,6 +44,7 @@ const ContactUs = () => {
 
   return (
     <>
+    <div className='main-container'>
     <div class="ccontainer" id="contact-section">
       <span class="big-circle"></span>
       <div class="form">
@@ -109,7 +110,7 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
-
+    </div>
     </>
   )
 }

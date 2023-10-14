@@ -13,6 +13,7 @@
     "react-icons": "^4.8.0",
     "react-parallax": "^3.5.1",
     "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
     "react-spring-carousel": "^2.0.19",
     "web-vitals": "^2.1.4"
   },

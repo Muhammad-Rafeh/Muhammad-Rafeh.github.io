@@ -79,7 +79,7 @@ export default function SpringCarousel({ handleSelectedVideo }) {
     },
     {
       id: 8,
-      title: "SpiChaser(Security Startup)",
+      title: "SpiChaser Security App",
       projectImage: "/spy.jpg",
       iconImage:
         "https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1557291375.3948_Dy2yZu_n.jpg",

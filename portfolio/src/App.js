@@ -10,14 +10,16 @@ import "./App.css";
 import Card from "./components/springCarousel/Card";
 import ContactUs from "./components/contactus/ContactUs";
 import ControlledCarousel from "./components/bootstrapCarousel/ControlledCarousel";
+import VideoPopup from "./components/videoPopup/VideoPopup";
 import Header from "./components/Header";
 import Project from "./components/projects/Project";
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState("");
-
+  const [isPopupVideo, setIsPopupVideo] = useState(false);
   const handleSelectedVideo = (videoSrc) => {
     setSelectedVideo(videoSrc);
+    setIsPopupVideo(true)
   }
 
   return (
@@ -28,7 +30,10 @@ const App = () => {
           <Header />
           <Project />
           <SpringCarousel handleSelectedVideo={handleSelectedVideo} />
-          <ControlledCarousel selectedVideo={selectedVideo} />
+          {
+           isPopupVideo && <VideoPopup selectedVideo={selectedVideo} setIsPopupVideo={setIsPopupVideo} /> 
+          }
+          {/* <ControlledCarousel selectedVideo={selectedVideo} /> */}
           {/* <LandingPanel /> */}
           {/* <div className="mt-1 projects-carousel-heading-wrapper">
             <h1 className="ps-5 projects-carousel-heading d-flex justify-center align-center items-center text-start">
